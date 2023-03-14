@@ -1,33 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\brown\\OneDrive\\Desktop\\CodingDojo\\classProjectsJan23Cohort\\csharp\\csharpclockapp\\cSharpClockApp.csproj": {}
+    "C:\\Users\\lsnow\\OneDrive\\Desktop\\classProjectsJan23Cohort\\cSharp\\cSharpClockApp\\cSharpClockApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\brown\\OneDrive\\Desktop\\CodingDojo\\classProjectsJan23Cohort\\csharp\\csharpclockapp\\cSharpClockApp.csproj": {
+    "C:\\Users\\lsnow\\OneDrive\\Desktop\\classProjectsJan23Cohort\\cSharp\\cSharpClockApp\\cSharpClockApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\brown\\OneDrive\\Desktop\\CodingDojo\\classProjectsJan23Cohort\\csharp\\csharpclockapp\\cSharpClockApp.csproj",
+        "projectUniqueName": "C:\\Users\\lsnow\\OneDrive\\Desktop\\classProjectsJan23Cohort\\cSharp\\cSharpClockApp\\cSharpClockApp.csproj",
         "projectName": "cSharpClockApp",
-        "projectPath": "C:\\Users\\brown\\OneDrive\\Desktop\\CodingDojo\\classProjectsJan23Cohort\\csharp\\csharpclockapp\\cSharpClockApp.csproj",
-        "packagesPath": "C:\\Users\\brown\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\brown\\OneDrive\\Desktop\\CodingDojo\\classProjectsJan23Cohort\\csharp\\csharpclockapp\\obj\\",
+        "projectPath": "C:\\Users\\lsnow\\OneDrive\\Desktop\\classProjectsJan23Cohort\\cSharp\\cSharpClockApp\\cSharpClockApp.csproj",
+        "packagesPath": "C:\\Users\\lsnow\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lsnow\\OneDrive\\Desktop\\classProjectsJan23Cohort\\cSharp\\cSharpClockApp\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\brown\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\lsnow\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

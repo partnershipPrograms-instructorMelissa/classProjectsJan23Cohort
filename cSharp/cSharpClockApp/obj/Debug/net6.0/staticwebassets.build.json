@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LLYQ76JSa55NTT9/Chan1mcTLM2wLaAB6YuSRQZoMyM=",
+  "Hash": "mSIu2nr5WUZUB8TAHr2j2KpTcdw+SGL9bnLwFKdjr8s=",
   "Source": "cSharpClockApp",
   "BasePath": "_content/cSharpClockApp",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "cSharpClockApp\\wwwroot",
       "Source": "cSharpClockApp",
-      "ContentRoot": "C:\\Users\\brown\\OneDrive\\Desktop\\CodingDojo\\classProjectsJan23Cohort\\csharp\\csharpclockapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lsnow\\OneDrive\\Desktop\\classProjectsJan23Cohort\\cSharp\\cSharpClockApp\\wwwroot\\",
       "BasePath": "_content/cSharpClockApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\brown\\OneDrive\\Desktop\\CodingDojo\\classProjectsJan23Cohort\\csharp\\csharpclockapp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\cSharpClockApp.styles.css",
+      "Identity": "C:\\Users\\lsnow\\OneDrive\\Desktop\\classProjectsJan23Cohort\\cSharp\\cSharpClockApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\cSharpClockApp.styles.css",
       "SourceId": "cSharpClockApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\brown\\OneDrive\\Desktop\\CodingDojo\\classProjectsJan23Cohort\\csharp\\csharpclockapp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\lsnow\\OneDrive\\Desktop\\classProjectsJan23Cohort\\cSharp\\cSharpClockApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/cSharpClockApp",
       "RelativePath": "cSharpClockApp.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\brown\\OneDrive\\Desktop\\CodingDojo\\classProjectsJan23Cohort\\csharp\\csharpclockapp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\cSharpClockApp.styles.css"
+      "OriginalItemSpec": "C:\\Users\\lsnow\\OneDrive\\Desktop\\classProjectsJan23Cohort\\cSharp\\cSharpClockApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\cSharpClockApp.styles.css"
     },
     {
-      "Identity": "C:\\Users\\brown\\OneDrive\\Desktop\\CodingDojo\\classProjectsJan23Cohort\\csharp\\csharpclockapp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\cSharpClockApp.bundle.scp.css",
+      "Identity": "C:\\Users\\lsnow\\OneDrive\\Desktop\\classProjectsJan23Cohort\\cSharp\\cSharpClockApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\cSharpClockApp.bundle.scp.css",
       "SourceId": "cSharpClockApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\brown\\OneDrive\\Desktop\\CodingDojo\\classProjectsJan23Cohort\\csharp\\csharpclockapp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\lsnow\\OneDrive\\Desktop\\classProjectsJan23Cohort\\cSharp\\cSharpClockApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/cSharpClockApp",
       "RelativePath": "cSharpClockApp.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\brown\\OneDrive\\Desktop\\CodingDojo\\classProjectsJan23Cohort\\csharp\\csharpclockapp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\cSharpClockApp.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\lsnow\\OneDrive\\Desktop\\classProjectsJan23Cohort\\cSharp\\cSharpClockApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\cSharpClockApp.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\brown\\OneDrive\\Desktop\\CodingDojo\\classProjectsJan23Cohort\\csharp\\csharpclockapp\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\lsnow\\OneDrive\\Desktop\\classProjectsJan23Cohort\\cSharp\\cSharpClockApp\\wwwroot\\css\\site.css",
       "SourceId": "cSharpClockApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\brown\\OneDrive\\Desktop\\CodingDojo\\classProjectsJan23Cohort\\csharp\\csharpclockapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lsnow\\OneDrive\\Desktop\\classProjectsJan23Cohort\\cSharp\\cSharpClockApp\\wwwroot\\",
       "BasePath": "_content/cSharpClockApp",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\brown\\OneDrive\\Desktop\\CodingDojo\\classProjectsJan23Cohort\\csharp\\csharpclockapp\\wwwroot\\css\\style.css",
+      "Identity": "C:\\Users\\lsnow\\OneDrive\\Desktop\\classProjectsJan23Cohort\\cSharp\\cSharpClockApp\\wwwroot\\css\\style.css",
       "SourceId": "cSharpClockApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\brown\\OneDrive\\Desktop\\CodingDojo\\classProjectsJan23Cohort\\csharp\\csharpclockapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lsnow\\OneDrive\\Desktop\\classProjectsJan23Cohort\\cSharp\\cSharpClockApp\\wwwroot\\",
       "BasePath": "_content/cSharpClockApp",
       "RelativePath": "css/style.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\brown\\OneDrive\\Desktop\\CodingDojo\\classProjectsJan23Cohort\\csharp\\csharpclockapp\\wwwroot\\css\\style.less",
+      "Identity": "C:\\Users\\lsnow\\OneDrive\\Desktop\\classProjectsJan23Cohort\\cSharp\\cSharpClockApp\\wwwroot\\css\\style.less",
       "SourceId": "cSharpClockApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\brown\\OneDrive\\Desktop\\CodingDojo\\classProjectsJan23Cohort\\csharp\\csharpclockapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lsnow\\OneDrive\\Desktop\\classProjectsJan23Cohort\\cSharp\\cSharpClockApp\\wwwroot\\",
       "BasePath": "_content/cSharpClockApp",
       "RelativePath": "css/style.less",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style.less"
     },
     {
-      "Identity": "C:\\Users\\brown\\OneDrive\\Desktop\\CodingDojo\\classProjectsJan23Cohort\\csharp\\csharpclockapp\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\lsnow\\OneDrive\\Desktop\\classProjectsJan23Cohort\\cSharp\\cSharpClockApp\\wwwroot\\favicon.ico",
       "SourceId": "cSharpClockApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\brown\\OneDrive\\Desktop\\CodingDojo\\classProjectsJan23Cohort\\csharp\\csharpclockapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lsnow\\OneDrive\\Desktop\\classProjectsJan23Cohort\\cSharp\\cSharpClockApp\\wwwroot\\",
       "BasePath": "_content/cSharpClockApp",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\brown\\OneDrive\\Desktop\\CodingDojo\\classProjectsJan23Cohort\\csharp\\csharpclockapp\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\lsnow\\OneDrive\\Desktop\\classProjectsJan23Cohort\\cSharp\\cSharpClockApp\\wwwroot\\js\\site.js",
       "SourceId": "cSharpClockApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\brown\\OneDrive\\Desktop\\CodingDojo\\classProjectsJan23Cohort\\csharp\\csharpclockapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lsnow\\OneDrive\\Desktop\\classProjectsJan23Cohort\\cSharp\\cSharpClockApp\\wwwroot\\",
       "BasePath": "_content/cSharpClockApp",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\brown\\OneDrive\\Desktop\\CodingDojo\\classProjectsJan23Cohort\\csharp\\csharpclockapp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\lsnow\\OneDrive\\Desktop\\classProjectsJan23Cohort\\cSharp\\cSharpClockApp\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "cSharpClockApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\brown\\OneDrive\\Desktop\\CodingDojo\\classProjectsJan23Cohort\\csharp\\csharpclockapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lsnow\\OneDrive\\Desktop\\classProjectsJan23Cohort\\cSharp\\cSharpClockApp\\wwwroot\\",
       "BasePath": "_content/cSharpClockApp",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\brown\\OneDrive\\Desktop\\CodingDojo\\classProjectsJan23Cohort\\csharp\\csharpclockapp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\lsnow\\OneDrive\\Desktop\\classProjectsJan23Cohort\\cSharp\\cSharpClockApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "cSharpClockApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\brown\\OneDrive\\Desktop\\CodingDojo\\classProjectsJan23Cohort\\csharp\\csharpclockapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lsnow\\OneDrive\\Desktop\\classProjectsJan23Cohort\\cSharp\\cSharpClockApp\\wwwroot\\",
       "BasePath": "_content/cSharpClockApp",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\brown\\OneDrive\\Desktop\\CodingDojo\\classProjectsJan23Cohort\\csharp\\csharpclockapp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\lsnow\\OneDrive\\Desktop\\classProjectsJan23Cohort\\cSharp\\cSharpClockApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "cSharpClockApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\brown\\OneDrive\\Desktop\\CodingDojo\\classProjectsJan23Cohort\\csharp\\csharpclockapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lsnow\\OneDrive\\Desktop\\classProjectsJan23Cohort\\cSharp\\cSharpClockApp\\wwwroot\\",
       "BasePath": "_content/cSharpClockApp",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\brown\\OneDrive\\Desktop\\CodingDojo\\classProjectsJan23Cohort\\csharp\\csharpclockapp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\lsnow\\OneDrive\\Desktop\\classProjectsJan23Cohort\\cSharp\\cSharpClockApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "cSharpClockApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\brown\\OneDrive\\Desktop\\CodingDojo\\classProjectsJan23Cohort\\csharp\\csharpclockapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lsnow\\OneDrive\\Desktop\\classProjectsJan23Cohort\\cSharp\\cSharpClockApp\\wwwroot\\",
       "BasePath": "_content/cSharpClockApp",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\brown\\OneDrive\\Desktop\\CodingDojo\\classProjectsJan23Cohort\\csharp\\csharpclockapp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\lsnow\\OneDrive\\Desktop\\classProjectsJan23Cohort\\cSharp\\cSharpClockApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "cSharpClockApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\brown\\OneDrive\\Desktop\\CodingDojo\\classProjectsJan23Cohort\\csharp\\csharpclockapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lsnow\\OneDrive\\Desktop\\classProjectsJan23Cohort\\cSharp\\cSharpClockApp\\wwwroot\\",
       "BasePath": "_content/cSharpClockApp",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\brown\\OneDrive\\Desktop\\CodingDojo\\classProjectsJan23Cohort\\csharp\\csharpclockapp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\lsnow\\OneDrive\\Desktop\\classProjectsJan23Cohort\\cSharp\\cSharpClockApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "cSharpClockApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\brown\\OneDrive\\Desktop\\CodingDojo\\classProjectsJan23Cohort\\csharp\\csharpclockapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lsnow\\OneDrive\\Desktop\\classProjectsJan23Cohort\\cSharp\\cSharpClockApp\\wwwroot\\",
       "BasePath": "_content/cSharpClockApp",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",

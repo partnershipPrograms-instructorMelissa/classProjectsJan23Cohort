@@ -8,11 +8,11 @@ namespace cSharpClockApp.Controllers;
 public class SkillController : Controller
 {
 
-    private MyContext _context;
+    private MyContext db;
 
     public SkillController( MyContext context)
     {
-        _context = context;
+        db = context;
     }
 
     [HttpGet("addskill")]

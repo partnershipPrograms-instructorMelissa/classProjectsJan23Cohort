@@ -1,0 +1,13 @@
+@model Skill
+
+<form asp-controller="Skill" asp-action="CreateSkill" method="Post" >
+    <label asp-for="Name"></label>
+    <input asp-for="Name">
+    <span asp-validation-for="Name"></span>
+
+    <label asp-for="Category"></label>
+    <input asp-for="Category">
+    <span asp-validation-for="Category"></span>
+
+    <button class="btn btn-primary">Submit</button>
+</form>
