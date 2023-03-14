@@ -39,6 +39,12 @@ a {
   text-decoration: none;
   color: #000;
 }
+table,
+tr,
+th,
+td {
+  border: 2px double #b488b4;
+}
 body {
   background-color: #c1bbc3;
   color: #000;
@@ -104,6 +110,17 @@ body main .row form {
 }
 body main .row form section {
   margin: 0.5em;
+}
+body main table {
+  padding: 0.5em;
+}
+body main table tr {
+  padding: 0.5em;
+}
+body main table tr th,
+body main table tr td {
+  padding: 0.5em;
+  text-align: center;
 }
 body footer {
   display: flex;

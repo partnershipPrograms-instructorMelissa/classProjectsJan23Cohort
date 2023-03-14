@@ -40,6 +40,13 @@ public class OrgController: Controller
             return HttpContext.Session.GetString("role");
         }
     }
+    [SessionCheck]
+    [HttpPost("/Organization/CheckCode")]
+    public IActionResult CheckCode(CheckCode code) {
+        if(!ModelState.IsValid) {
+            return View("Dashboard", "Home");
+        }
+    }
     
 
     // [SessionCheck]

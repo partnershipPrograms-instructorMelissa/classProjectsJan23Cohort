@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qwbvJjAEFAEGHVeQTPWr3UuVPtDtZ5v/afFiWIWElY0nAGJHyTkswXDCy00AZXuNJ/W4/SZ8EBuDaO5X8EL6SQ==",
+  "dgSpecHash": "GxG3NQemMjObOhGW4qcTXi9P3u2TMOpoux5WfSojb07l50pKgbSj7qAkzB0z+53D74PvTXmvrxg9TjywhI4X2Q==",
   "success": true,
-  "projectFilePath": "/Users/irish/coding/work/CodingDojo/instruction/wos/jan23cohort/classProject/cSharp/DevsOnDeck/DevsOnDeck.csproj",
+  "projectFilePath": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/DevsOnDeck.csproj",
   "expectedPackageFiles": [
     "/Users/irish/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/irish/.nuget/packages/microsoft.entityframeworkcore/6.0.3/microsoft.entityframeworkcore.6.0.3.nupkg.sha512",

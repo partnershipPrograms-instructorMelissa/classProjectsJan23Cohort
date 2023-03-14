@@ -15,10 +15,28 @@
     </tr>
     @foreach(User u in Model) {
     <tr>
-        <td>u.FullName()</td>
-        <td>u.Username</td>
-        <td>u.AccessLevel</td>
-        <td></td>
+        <td>@u.FullName()</td>
+        <td>@u.Username</td>
+        <td>@u.AccessLevel</td>
+        <td>
+            @if(@Context.Session.GetInt32("level") == 24){
+                if(@u.AccessLevel != 24) {
+                    <form action="/Admin/@u.UserId/MakeSuper" method='post'>
+                        <button>Make Super Admin</button>
+                    </form>
+                }
+                if(@u.AccessLevel != 22) {
+                    <form action="/Admin/@u.UserId/MakeAdmin" method='post'>
+                        <button>Make Admin</button>
+                    </form>
+                }
+                if(@u.AccessLevel > 20) {
+                    <form action="/Admin/@u.UserId/RemoveAdmin" method='post'>
+                        <button>Remove Admin Access</button>
+                    </form>
+                }
+            }
+        </td>
     </tr>
 }
 </table>

@@ -1,0 +1,24 @@
+@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+@model List<RandKey>
+
+<h1>Welcome Admin @Context.Session.GetString("name")</h1>
+<h2>@Context.Session.GetString("type")</h2>
+
+<form action="/Admin/CreateCode" method="post">
+    <button>Generate New Code</button>
+</form>
+<table>
+    <tr>
+        <th>Code #</th>
+        <th>Code</th>
+    </tr>
+    @foreach(RandKey r in Model) {
+        <tr>
+            <td>@r.RandKeyId</td>
+            <td>@r.RKey</td>
+        </tr>
+    }
+</table>
+

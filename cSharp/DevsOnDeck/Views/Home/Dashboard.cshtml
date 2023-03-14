@@ -14,8 +14,12 @@
 @if(@Context.Session.GetInt32("level") < 2) {
     <h2>Please finish Setting up your Profile</h2>
     @await Html.PartialAsync("_AddDevId")
-    @await Html.PartialAsync("_AddOrgId")
+    @await Html.PartialAsync("_CheckOrgCode")
+    
 } 
+@if(@Context.Session.GetInt32("level") < 2 && @Context.Session.GetString("type") == "temp") {
+    @await Html.PartialAsync("_AddOrgId")
+}
 @* if not admin and not 1st timer *@
 @if(@Context.Session.GetInt32("level") > 1) {
     <h2>Please chose which part of the site you wish to use today</h2>

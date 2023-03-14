@@ -59,22 +59,85 @@ public class AdminController: Controller
     public IActionResult AllUsers() {
         List<User> allUsers = db.Users
         .ToList();
+        // Random rand = new Random();
+        // string newCode = "";
+        // string avail = "abcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        // int size = avail.Length;
+        // Console.WriteLine($"newCode before: {newCode}, avail: {avail}, size: {size}");
+        // while(newCode.Length < 13) {
+        //     newCode += avail[rand.Next(size)];
+        //     Console.WriteLine($"newCode in while: {newCode}");
+        // }
+        // Console.WriteLine($"newCode after while: {newCode}");
         return View("AllUsers", allUsers);
     }
-    // [AdminCheck]
-    // [SessionCheck]
-    // [HttpPost("/Admin/Dashboard/MakeSuper")]
-    // public IActionResult MakeSuper() {
-        
-    // }
-// *** Make Super Admin
-// *** Make Admin
-// *** Create Org code
+    [AdminCheck]
+    [SessionCheck]
+    [HttpPost("/Admin/{userId}/MakeSuper")]
+    public IActionResult MakeSuper(int userId) {
+        User? aUser = db.Users
+        .FirstOrDefault(aUser => aUser.UserId == userId);
+        aUser.AccessLevel = 24;
+        aUser.AccessType = "SuperAdmin";
+        aUser.UpdatedAt = DateTime.Now;
+        db.Users.Update(aUser);
+        db.SaveChanges();
+        return Redirect("/Admin/Users");
+    }
+    [AdminCheck]
+    [SessionCheck]
+    [HttpPost("/Admin/{userId}/MakeAdmin")]
+    public IActionResult MakeAdmin(int userId) {
+        User? aUser = db.Users
+        .FirstOrDefault(aUser => aUser.UserId == userId);
+        aUser.AccessLevel = 22;
+        aUser.AccessType = "Admin";
+        aUser.UpdatedAt = DateTime.Now;
+        db.Users.Update(aUser);
+        db.SaveChanges();
+        return Redirect("/Admin/Users");
+    }
+    [AdminCheck]
+    [SessionCheck]
+    [HttpPost("/Admin/{userId}/RemoveAdmin")]
+    public IActionResult RemoveAdmin(int userId) {
+        User? aUser = db.Users
+        .FirstOrDefault(aUser => aUser.UserId == userId);
+        aUser.AccessLevel = 1;
+        aUser.AccessType = "Gen";
+        aUser.UpdatedAt = DateTime.Now;
+        db.Users.Update(aUser);
+        db.SaveChanges();
+        return Redirect("/Admin/Users");
+    }
+    [AdminCheck]
+    [SessionCheck]
+    [HttpGet("/Admin/OrgCodes")]
+    public IActionResult OrgCodes() {
+        List<RandKey> allCodes = db.RandKeys
+        .ToList();
+        return View("OrgCodes", allCodes);
+    }
+
+    [AdminCheck]
+    [SessionCheck]
+    [HttpPost("/Admin/CreateCode")]
+    public IActionResult CreateCode(RandKey r) {
+        r.UserId = (int)uid;
+        Random rand = new Random();
+        r.RKey = "";
+        string avail = "abcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        int size = avail.Length;
+        while(r.RKey.Length < 13) {
+            r.RKey += avail[rand.Next(size)];
+        }
+        db.RandKeys.Add(r);
+        db.SaveChanges();
+        return Redirect("/Admin/OrgCodes");
+    }
+
 // *** Remove User
 // *** Remove Org
-// *** Downgrade Admin
-// *** Downgrade Super Admin
-// *** All Users
 // *** Update Password Link (/user/{key}/updatePassword)
     // [AdminCheck]
     // [SessionCheck]

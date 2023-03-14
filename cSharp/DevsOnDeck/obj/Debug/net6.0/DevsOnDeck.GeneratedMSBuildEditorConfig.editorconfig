@@ -8,85 +8,93 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DevsOnDeck
 build_property.RootNamespace = DevsOnDeck
-build_property.ProjectDir = /Users/irish/coding/work/CodingDojo/instruction/wos/jan23cohort/classProject/cSharp/DevsOnDeck/
+build_property.ProjectDir = /Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/irish/coding/work/CodingDojo/instruction/wos/jan23cohort/classProject/cSharp/DevsOnDeck
+build_property.MSBuildProjectDirectory = /Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/irish/coding/work/CodingDojo/instruction/wos/jan23cohort/classProject/cSharp/DevsOnDeck/Views/Admin/AdminDash.cshtml]
+[/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/Views/Admin/AdminDash.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQWRtaW5EYXNoLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/irish/coding/work/CodingDojo/instruction/wos/jan23cohort/classProject/cSharp/DevsOnDeck/Views/Admin/AllUsers.cshtml]
+[/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/Views/Admin/AllUsers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQWxsVXNlcnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/irish/coding/work/CodingDojo/instruction/wos/jan23cohort/classProject/cSharp/DevsOnDeck/Views/Dev/DevDash.cshtml]
+[/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/Views/Admin/OrgCodes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vT3JnQ29kZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/Views/Dev/DevDash.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGV2L0RldkRhc2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/irish/coding/work/CodingDojo/instruction/wos/jan23cohort/classProject/cSharp/DevsOnDeck/Views/Home/Dashboard.cshtml]
+[/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/Views/Home/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9EYXNoYm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/irish/coding/work/CodingDojo/instruction/wos/jan23cohort/classProject/cSharp/DevsOnDeck/Views/Home/Index.cshtml]
+[/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/irish/coding/work/CodingDojo/instruction/wos/jan23cohort/classProject/cSharp/DevsOnDeck/Views/Home/LogReg.cshtml]
+[/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/Views/Home/LogReg.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Mb2dSZWcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/irish/coding/work/CodingDojo/instruction/wos/jan23cohort/classProject/cSharp/DevsOnDeck/Views/Home/NotAuth.cshtml]
+[/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/Views/Home/NotAuth.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Ob3RBdXRoLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/irish/coding/work/CodingDojo/instruction/wos/jan23cohort/classProject/cSharp/DevsOnDeck/Views/Home/Privacy.cshtml]
+[/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/irish/coding/work/CodingDojo/instruction/wos/jan23cohort/classProject/cSharp/DevsOnDeck/Views/Home/Profile.cshtml]
+[/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/Views/Home/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/irish/coding/work/CodingDojo/instruction/wos/jan23cohort/classProject/cSharp/DevsOnDeck/Views/Home/_AddDevId.cshtml]
+[/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/Views/Home/_AddDevId.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9fQWRkRGV2SWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/irish/coding/work/CodingDojo/instruction/wos/jan23cohort/classProject/cSharp/DevsOnDeck/Views/Home/_AddOrgId.cshtml]
+[/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/Views/Home/_AddOrgId.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9fQWRkT3JnSWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/irish/coding/work/CodingDojo/instruction/wos/jan23cohort/classProject/cSharp/DevsOnDeck/Views/Home/_Login.cshtml]
+[/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/Views/Home/_CheckOrgCode.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9fQ2hlY2tPcmdDb2RlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/Views/Home/_Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9fTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/irish/coding/work/CodingDojo/instruction/wos/jan23cohort/classProject/cSharp/DevsOnDeck/Views/Home/_Register.cshtml]
+[/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/Views/Home/_Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9fUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/irish/coding/work/CodingDojo/instruction/wos/jan23cohort/classProject/cSharp/DevsOnDeck/Views/Organization/OrgDash.cshtml]
+[/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/Views/Organization/OrgDash.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JnYW5pemF0aW9uL09yZ0Rhc2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/irish/coding/work/CodingDojo/instruction/wos/jan23cohort/classProject/cSharp/DevsOnDeck/Views/Shared/Error.cshtml]
+[/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/irish/coding/work/CodingDojo/instruction/wos/jan23cohort/classProject/cSharp/DevsOnDeck/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/irish/coding/work/CodingDojo/instruction/wos/jan23cohort/classProject/cSharp/DevsOnDeck/Views/_ViewImports.cshtml]
+[/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/irish/coding/work/CodingDojo/instruction/wos/jan23cohort/classProject/cSharp/DevsOnDeck/Views/_ViewStart.cshtml]
+[/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/irish/coding/work/CodingDojo/instruction/wos/jan23cohort/classProject/cSharp/DevsOnDeck/Views/Shared/_Layout.cshtml]
+[/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-grv9o6cq3c

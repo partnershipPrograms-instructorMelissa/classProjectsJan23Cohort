@@ -28,8 +28,9 @@
                     }
                     @if(@Context.Session.GetInt32("level") > 20) {
                         <a href="/Admin/Dashboard">Admin</a>
-                        @if(@Context.Session.GetString("type") == "Admin") {
-                            <a href="">Admin Test</a>
+                        <a href="/Admin/Users">All Users</a>
+                        @if(@Context.Session.GetString("type") == "Super Admin") {
+                            <a href="/Admin/OrgCodes">Organization Codes</a>
                         }
                     }
                }

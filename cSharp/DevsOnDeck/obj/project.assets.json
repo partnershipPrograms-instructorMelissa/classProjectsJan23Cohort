@@ -786,11 +786,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/irish/coding/work/CodingDojo/instruction/wos/jan23cohort/classProject/cSharp/DevsOnDeck/DevsOnDeck.csproj",
+      "projectUniqueName": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/DevsOnDeck.csproj",
       "projectName": "DevsOnDeck",
-      "projectPath": "/Users/irish/coding/work/CodingDojo/instruction/wos/jan23cohort/classProject/cSharp/DevsOnDeck/DevsOnDeck.csproj",
+      "projectPath": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/DevsOnDeck.csproj",
       "packagesPath": "/Users/irish/.nuget/packages/",
-      "outputPath": "/Users/irish/coding/work/CodingDojo/instruction/wos/jan23cohort/classProject/cSharp/DevsOnDeck/obj/",
+      "outputPath": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/irish/.nuget/NuGet/NuGet.Config"
