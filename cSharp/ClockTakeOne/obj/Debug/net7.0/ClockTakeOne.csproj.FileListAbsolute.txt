@@ -1,0 +1,15 @@
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/classProject/cSharp/ClockTakeOne/bin/Debug/net7.0/ClockTakeOne
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/classProject/cSharp/ClockTakeOne/bin/Debug/net7.0/ClockTakeOne.deps.json
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/classProject/cSharp/ClockTakeOne/bin/Debug/net7.0/ClockTakeOne.runtimeconfig.json
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/classProject/cSharp/ClockTakeOne/bin/Debug/net7.0/ClockTakeOne.dll
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/classProject/cSharp/ClockTakeOne/bin/Debug/net7.0/ClockTakeOne.pdb
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/classProject/cSharp/ClockTakeOne/obj/Debug/net7.0/ClockTakeOne.csproj.AssemblyReference.cache
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/classProject/cSharp/ClockTakeOne/obj/Debug/net7.0/ClockTakeOne.GeneratedMSBuildEditorConfig.editorconfig
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/classProject/cSharp/ClockTakeOne/obj/Debug/net7.0/ClockTakeOne.AssemblyInfoInputs.cache
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/classProject/cSharp/ClockTakeOne/obj/Debug/net7.0/ClockTakeOne.AssemblyInfo.cs
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/classProject/cSharp/ClockTakeOne/obj/Debug/net7.0/ClockTakeOne.csproj.CoreCompileInputs.cache
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/classProject/cSharp/ClockTakeOne/obj/Debug/net7.0/ClockTakeOne.dll
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/classProject/cSharp/ClockTakeOne/obj/Debug/net7.0/refint/ClockTakeOne.dll
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/classProject/cSharp/ClockTakeOne/obj/Debug/net7.0/ClockTakeOne.pdb
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/classProject/cSharp/ClockTakeOne/obj/Debug/net7.0/ClockTakeOne.genruntimeconfig.cache
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/classProject/cSharp/ClockTakeOne/obj/Debug/net7.0/ref/ClockTakeOne.dll

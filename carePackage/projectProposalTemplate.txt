@@ -1,0 +1,15 @@
+Name: 
+Project Title: B
+Project Stack: 
+GitHub Repo Link: 
+Project Description: 
+
+Wireframe:
+
+New Programming Concept(s) I'm Planning to Learn: 
+
+Week 1 Features (to show at Review during Week 2) :
+
+Week 2 Features (to show at the first office hour/lecture of Week 3) :
+
+Product Backlog (If I have more time after completing my MVP, I'll start to work on...) :}

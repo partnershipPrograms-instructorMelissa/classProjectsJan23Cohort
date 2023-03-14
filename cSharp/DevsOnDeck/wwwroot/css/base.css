@@ -1,0 +1,41 @@
+.flexrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.flexcolumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  max-width: 300px;
+}
+.box {
+  border: 2px groove #96858f;
+  background-color: #d0dcb2;
+  box-shadow: 0.1em 0.25em 0.75em #96858f;
+}
+.altbox {
+  border: 2px groove #96858f;
+  background-color: #ffbe2e;
+  box-shadow: 0.1em 0.25em 0.75em #96858f;
+}
+.button {
+  border: 2px groove #96858f;
+  background-color: #b488b4;
+  box-shadow: 0.1em 0.25em 0.75em #96858f;
+}
+button {
+  border: 2px groove #96858f;
+  background-color: #b488b4;
+  box-shadow: 0.1em 0.25em 0.75em #96858f;
+  font-size: 1.2em;
+  padding: 0.3em;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}

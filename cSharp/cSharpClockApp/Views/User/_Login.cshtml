@@ -1,0 +1,24 @@
+
+@model LoginUser
+<div class="position-absolute end-0">
+    <h2>Login</h2>
+    <form action="login" method="post">
+        <div class="form-group row p-1">
+            <label asp-for="LoginEmail" class="col-sm-2 col-form-label">Email: </label>
+            <input asp-for="LoginEmail" class="col-sm-5">
+            <span asp-validation-for="LoginEmail"></span>
+        </div>
+        <h5>Or</h5>
+        <div class="form-group row p-1">
+            <label asp-for="LoginUsername" class="col-sm-2 col-form-label">Username: </label>
+            <input asp-for="LoginUsername" class="col-sm-5">
+            <span asp-validation-for="LoginUsername"></span>
+        </div>
+        <div class="form-group row p-1">
+            <label asp-for="Password" class="col-sm-2 col-form-label">Password: </label>
+            <input asp-for="Password" class="col-sm-5">
+            <span asp-validation-for="Password"></span>
+        </div>
+        <button>Login</button>
+    </form>
+</div>

@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - DevsOnDeck</title>
+    @* <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" /> *@
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    @* <link rel="stylesheet" href="~/DevsOnDeck.styles.css" asp-append-version="true" /> *@
+</head>
+<body>
+    <header>
+        <h1>Devs On Deck</h1>
+        <nav>
+            <a href="/">Home</a>
+            @* if in session *@
+            @if(@Context.Session.GetInt32("uid") != null) {
+                <a href="/Profile">Your Profile</a>
+                @* If session user level greater than 1 *@
+                @if(@Context.Session.GetInt32("level") > 1 ) {
+                    <a href="/Developer/Dashboard">Developer</a>
+                    @if(@Context.Session.GetString("type") == "Dev") {
+                        <a href="">Dev Test</a>
+                    }
+                    <a href="/organization">Organization</a>
+                    @if(@Context.Session.GetString("type") == "Org") {
+                        <a href="">Org Test</a>
+                    }
+                    @if(@Context.Session.GetInt32("level") > 20) {
+                        <a href="/Admin/Dashboard">Admin</a>
+                        @if(@Context.Session.GetString("type") == "Admin") {
+                            <a href="">Admin Test</a>
+                        }
+                    }
+               }
+                <button><a href="/logout">Logout</a></button>
+            @* if Not in session *@
+            } else {
+                <a href="/logreg">Login/Signup</a>
+            }
+        </nav>
+    </header>
+    <main>
+        @RenderBody()
+    </main>
+    <footer>
+        <p class="footer">&copy; 2023 - DevsOnDeck</p>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

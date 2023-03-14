@@ -1,0 +1,28 @@
+@{
+    ViewData["Title"] = "Landing Page";
+}
+
+<h1>Welcome, @Context.Session.GetString("name")</h1>
+<h3>@ViewBag.Access</h3>
+
+@* If admin *@
+@if(@Context.Session.GetInt32("level") == 24) {
+    <h2>Welcome admin</h2>
+
+}
+@* if not admin and 1st time user *@
+@if(@Context.Session.GetInt32("level") < 2) {
+    <h2>Please finish Setting up your Profile</h2>
+    @await Html.PartialAsync("_AddDevId")
+    @await Html.PartialAsync("_AddOrgId")
+} 
+@* if not admin and not 1st timer *@
+@if(@Context.Session.GetInt32("level") > 1) {
+    <h2>Please chose which part of the site you wish to use today</h2>
+
+    <nav>
+        <a href="/Developer/Dashboard">Developer</a>
+        <a href="/organization">Organization</a>
+        
+    </nav>
+}

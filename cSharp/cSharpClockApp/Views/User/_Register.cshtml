@@ -1,0 +1,38 @@
+
+@model User
+<div class="position-absolute start-10">
+    <h2>Register</h2>
+    <form action="register" method="post">
+        <div class="form-group row p-1">
+            <label asp-for="FirstName" class="col-sm-3 col-form-label">First Name: </label>
+            <input asp-for="FirstName" class="col-sm-5">
+            <span asp-validation-for="FirstName"></span>
+        </div>
+        <div class="form-group row p-1">
+            <label asp-for="LastName" class="col-sm-3 col-form-label">Last Name: </label>
+            <input asp-for="LastName" class="col-sm-5">
+            <span asp-validation-for="LastName"></span>
+        </div>
+        <div class="form-group row p-1">
+            <label asp-for="Email" class="col-sm-3 col-form-label">Email: </label>
+            <input asp-for="Email" class="col-sm-5">
+            <span asp-validation-for="Email"></span>
+        </div>
+        <div class="form-group row p-1">
+            <label asp-for="Username" class="col-sm-3 col-form-label">Username: </label>
+            <input asp-for="Username" class="col-sm-5">
+            <span asp-validation-for="Username"></span>
+        </div>
+        <div class="form-group row p-1">
+            <label asp-for="Password" class="col-sm-3 col-form-label">Password: </label>
+            <input asp-for="Password" class="col-sm-5">
+            <span asp-validation-for="Password"></span>
+        </div>
+        <div class="form-group row p-1">
+            <label asp-for="Confirm" class="col-sm-3 col-form-label">PW Confirm: </label>
+            <input asp-for="Confirm" class="col-sm-5">
+            <span asp-validation-for="Confirm"></span>
+        </div>
+        <button>Register</button>
+    </form>
+</div>

@@ -1,0 +1,22 @@
+@{
+    ViewData["Title"] = "Landing Page";
+}
+@model User
+<h1>@Context.Session.GetString("name")'s Profile Page</h1>
+
+<h2>Full Name: @Model.FullName()</h2>
+<h3>Email Address: @Model.Email</h3>
+<h3>UserName: @Model.Username</h3>
+
+@if(@Context.Session.GetString("type") == "Dev") {
+    <h4>You were last seen on the Developer side of the website</h4>
+}
+@if(@Context.Session.GetString("type") == "Org") {
+    <h4>You were last seen on the Organization side of the website</h4>
+}
+@if(@Context.Session.GetString("type") == "Admin") {
+    <h4>You were last seen on the Admin side of the site</h4>
+}
+@if(@Context.Session.GetString("type") == "Gen") {
+    <h4>You are currently a general user</h4>
+}

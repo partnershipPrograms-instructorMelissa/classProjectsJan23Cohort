@@ -1,0 +1,24 @@
+@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+@model List<User>
+
+<h1>Welcome Admin @Context.Session.GetString("name")</h1>
+<h2>@Context.Session.GetString("type")</h2>
+
+<table>
+    <tr>
+        <th>Full Name</th>
+        <th>UserName</th>
+        <th>Access Level</th>
+        <th>Actions</th>
+    </tr>
+    @foreach(User u in Model) {
+    <tr>
+        <td>u.FullName()</td>
+        <td>u.Username</td>
+        <td>u.AccessLevel</td>
+        <td></td>
+    </tr>
+}
+</table>

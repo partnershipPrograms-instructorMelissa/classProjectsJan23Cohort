@@ -1,0 +1,133 @@
+// * {
+//     padding: 0;
+//     margin: 0;
+// }
+
+.flexrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.flexcolumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@red: #b94d4d;
+@blue: #d1e8f5;
+@border: 4px groove @blue;
+@400: ~"only screen and (max-width: 400px)";
+
+body {
+    .flexcolumn();
+    width: 95%;
+    margin: auto;
+    height: 1200px;
+    background-color: black;
+    background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+
+    div {
+      #est, #cst {
+        color: white;
+      }
+    }
+    #face {
+        background-color: #f3f3f3;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        border: 6px solid black;
+        position: relative;
+      
+        #minutes, #hour, #seconds {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform-origin: top center;
+        }
+
+        #seconds {
+            background-color: red;
+            height: 130px;
+            width: 2px;
+            transform: rotate(180deg);
+        }
+
+        #hour {
+            background-color: black;
+            height: 100px;
+            width: 8px;
+            transform: rotate(180deg);
+            // transform: rotate(125deg);
+        }
+
+        #minutes {
+            background-color: grey;
+            height: 120px;
+            width: 4px;
+            transform: rotate(180deg);
+            // transform: rotate(255deg);
+        }
+    }
+
+    #tools {
+        background-color: @blue;
+        .flexrow();
+        border: @border;
+        width: 100%;
+        // width: 75%;
+        // min-height: 600px;
+
+        .node {
+            .flexrow();
+            width: 75%;
+            min-height: 600px;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+
+            .toolDiv {
+                margin: 2em;
+            }
+
+            .toolDiv:hover {
+                // animation-name: tools;
+                animation: tools 2s ease-in-out 0s infinite normal none;
+            }
+            @keyframes tools {
+                0% {
+                  transform: scale3d(1, 1, 1);
+                }
+                30% {
+                  transform: scale3d(1.25, 0.75, 1);
+                }
+                40% {
+                  transform: scale3d(0.75, 1.25, 1);
+                }
+                50% {
+                  transform: scale3d(1.15, 0.85, 1);
+                }
+                65% {
+                  transform: scale3d(0.95, 1.05, 1);
+                }
+                75% {
+                  transform: scale3d(1.05, 0.95, 1);
+                }
+                100% {
+                  transform: scale3d(1, 1, 1);
+                }
+                
+              }
+        }
+    }
+}
+@media @400 {
+ body {
+    #tools {
+        .node {
+            flex-direction: column;
+        }
+    }
+ }
+} 

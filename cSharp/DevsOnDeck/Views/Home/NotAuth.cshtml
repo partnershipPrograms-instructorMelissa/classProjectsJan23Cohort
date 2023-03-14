@@ -1,0 +1,27 @@
+@{
+    ViewData["Title"] = "NotAuth";
+}
+<div class="noAuth">
+    @{
+    if(@Context.Session.GetInt32("uid") == null) {
+        <img src="~/img/403.png" alt="403 Error Image" class='error'>
+        <h1>Please log in to view that page</h1>
+    }
+    else if(@Context.Session.GetInt32("level") == 1) {
+        <img src="~/img/403.png" alt="403 Error Image" class='error'>
+        <h1>Please click the Developer or Organization button to proceed</h1>
+    }
+    else if(@Context.Session.GetInt32("level") < 14 ) {
+        <img src="~/img/403.png" alt="403 Error Image" class='error'>
+        <h1>Your are not the owner of the organization please reachout to the contact listed for access</h1>
+    }
+    else if(@Context.Session.GetInt32("level") < 20) {
+        <img src="~/img/403.png" alt="403 Error Image" class='error'>
+        <h1>Only Admins beyond this point</h1>
+    }
+    else if(@Context.Session.GetInt32("level") < 24) {
+        <img src="~/img/403.png" alt="403 Error Image" class='error'>
+        <h1>This section is restricted please see webmaster for access</h1>
+    }
+}
+</div>

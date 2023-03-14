@@ -1,0 +1,68 @@
+@import './base.less';
+
+body {
+    background-color: @bg;
+    color: @font;
+    .flexcolumn();
+    width: 95%;
+
+    header {
+        .box();
+        .flexrow();
+        width: 85%;
+        justify-content: space-around;
+
+    }
+    main {
+        .flexcolumn();
+        width: 85%;
+
+        .noAuth {
+            .flexcolumn();
+            width: 95%;
+
+            h1 {
+                .altbox();
+                padding: 1em;
+            }
+            .error {
+                max-width: 800px;
+                margin: 1em;
+                .box();
+            }
+        }
+        .row {
+            .flexrow();
+            width: 95%;
+            justify-content: space-evenly;
+            margin: 1em;
+
+            form {
+                .flexcolumn();
+                width: 50%;
+
+                section {
+                    margin: .5em;
+                }
+            }
+        }
+    }
+    footer {
+        .flexrow();
+        .box();
+        width: 85%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@import './media.less';

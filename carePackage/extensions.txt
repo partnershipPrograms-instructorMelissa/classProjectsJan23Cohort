@@ -1,0 +1,21 @@
+Good Extensions to install:
+
+1. Bracket Pair Colorizer - open and closing brackets will match color
+2. Code Runner (make sure you have node installed too) - Helps run your code (good for JS too)
+3. Code Spell Checker - Helps catch most spelling errors
+4. indent-rainbow - gives color to the different levels as the code is indented
+5. Jinja Snippets - For Flask (and django) will allow you to use emmett but for jinja (will explain this later)
+6. Python - This will be asked to be installed by default when you open your first .py file
+
+Optional Extensions:
+
+1. Easy LESS - This is for styling with .less documents so that it converts it to .css
+2. Prettier - Code formatter - Helps give some extra color to your code
+
+
+A Fun extension:
+1. Code Time - Lets you see how much you code (kinda scarry sometimes to see these numbers)
+
+
+Themes:
+I recommend a good theme that you can see everything well.

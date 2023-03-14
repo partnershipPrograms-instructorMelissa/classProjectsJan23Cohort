@@ -1,0 +1,15 @@
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/classProject/games/NumberGuessingGame/bin/Debug/net7.0/NumberGuessingGame
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/classProject/games/NumberGuessingGame/bin/Debug/net7.0/NumberGuessingGame.deps.json
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/classProject/games/NumberGuessingGame/bin/Debug/net7.0/NumberGuessingGame.runtimeconfig.json
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/classProject/games/NumberGuessingGame/bin/Debug/net7.0/NumberGuessingGame.dll
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/classProject/games/NumberGuessingGame/bin/Debug/net7.0/NumberGuessingGame.pdb
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/classProject/games/NumberGuessingGame/obj/Debug/net7.0/NumberGuessingGame.csproj.AssemblyReference.cache
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/classProject/games/NumberGuessingGame/obj/Debug/net7.0/NumberGuessingGame.GeneratedMSBuildEditorConfig.editorconfig
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/classProject/games/NumberGuessingGame/obj/Debug/net7.0/NumberGuessingGame.AssemblyInfoInputs.cache
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/classProject/games/NumberGuessingGame/obj/Debug/net7.0/NumberGuessingGame.AssemblyInfo.cs
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/classProject/games/NumberGuessingGame/obj/Debug/net7.0/NumberGuessingGame.csproj.CoreCompileInputs.cache
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/classProject/games/NumberGuessingGame/obj/Debug/net7.0/NumberGuessingGame.dll
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/classProject/games/NumberGuessingGame/obj/Debug/net7.0/refint/NumberGuessingGame.dll
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/classProject/games/NumberGuessingGame/obj/Debug/net7.0/NumberGuessingGame.pdb
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/classProject/games/NumberGuessingGame/obj/Debug/net7.0/NumberGuessingGame.genruntimeconfig.cache
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/classProject/games/NumberGuessingGame/obj/Debug/net7.0/ref/NumberGuessingGame.dll

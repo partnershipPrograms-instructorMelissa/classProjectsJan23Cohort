@@ -1,0 +1,15 @@
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/classProject/games/MadLibConsoleGame/obj/Debug/net7.0/MadLibConsoleGame.csproj.AssemblyReference.cache
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/classProject/games/MadLibConsoleGame/obj/Debug/net7.0/MadLibConsoleGame.GeneratedMSBuildEditorConfig.editorconfig
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/classProject/games/MadLibConsoleGame/obj/Debug/net7.0/MadLibConsoleGame.AssemblyInfoInputs.cache
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/classProject/games/MadLibConsoleGame/obj/Debug/net7.0/MadLibConsoleGame.AssemblyInfo.cs
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/classProject/games/MadLibConsoleGame/obj/Debug/net7.0/MadLibConsoleGame.csproj.CoreCompileInputs.cache
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/classProject/games/MadLibConsoleGame/bin/Debug/net7.0/MadLibConsoleGame
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/classProject/games/MadLibConsoleGame/bin/Debug/net7.0/MadLibConsoleGame.deps.json
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/classProject/games/MadLibConsoleGame/bin/Debug/net7.0/MadLibConsoleGame.runtimeconfig.json
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/classProject/games/MadLibConsoleGame/bin/Debug/net7.0/MadLibConsoleGame.dll
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/classProject/games/MadLibConsoleGame/bin/Debug/net7.0/MadLibConsoleGame.pdb
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/classProject/games/MadLibConsoleGame/obj/Debug/net7.0/MadLibConsoleGame.dll
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/classProject/games/MadLibConsoleGame/obj/Debug/net7.0/refint/MadLibConsoleGame.dll
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/classProject/games/MadLibConsoleGame/obj/Debug/net7.0/MadLibConsoleGame.pdb
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/classProject/games/MadLibConsoleGame/obj/Debug/net7.0/MadLibConsoleGame.genruntimeconfig.cache
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/classProject/games/MadLibConsoleGame/obj/Debug/net7.0/ref/MadLibConsoleGame.dll
