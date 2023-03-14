@@ -20,6 +20,7 @@ body {
   height: 1200px;
   background-color: black;
   background: radial-gradient(circle at -8.9% 51.2%, #ff7c00 0%, #ff7c00 15.9%, #ffa34d 15.9%, #ffa34d 24.4%, #131e25 24.5%, #131e25 66%);
+  color: white;
 }
 body div #est,
 body div #cst {

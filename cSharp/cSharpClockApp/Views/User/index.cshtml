@@ -2,5 +2,10 @@
     ViewData["Title"] = "Index";
 }
 
+@{
+    DateTime now = DateTime.Now;
+    <h1><span>@now.ToString("t")</span></h1>
+}
+
 @await Html.PartialAsync("_Register")
 @await Html.PartialAsync("_Login")

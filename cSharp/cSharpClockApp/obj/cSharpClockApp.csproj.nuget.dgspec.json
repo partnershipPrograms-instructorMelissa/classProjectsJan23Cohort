@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/irish/coding/work/CodingDojo/instruction/wos/jan23cohort/classProject/cSharp/cSharpClockApp/cSharpClockApp.csproj": {}
+    "/Users/Adriana.Pena/codingDojo/classProjectsJan23Cohort/cSharp/cSharpClockApp/cSharpClockApp.csproj": {}
   },
   "projects": {
-    "/Users/irish/coding/work/CodingDojo/instruction/wos/jan23cohort/classProject/cSharp/cSharpClockApp/cSharpClockApp.csproj": {
+    "/Users/Adriana.Pena/codingDojo/classProjectsJan23Cohort/cSharp/cSharpClockApp/cSharpClockApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/irish/coding/work/CodingDojo/instruction/wos/jan23cohort/classProject/cSharp/cSharpClockApp/cSharpClockApp.csproj",
+        "projectUniqueName": "/Users/Adriana.Pena/codingDojo/classProjectsJan23Cohort/cSharp/cSharpClockApp/cSharpClockApp.csproj",
         "projectName": "cSharpClockApp",
-        "projectPath": "/Users/irish/coding/work/CodingDojo/instruction/wos/jan23cohort/classProject/cSharp/cSharpClockApp/cSharpClockApp.csproj",
-        "packagesPath": "/Users/irish/.nuget/packages/",
-        "outputPath": "/Users/irish/coding/work/CodingDojo/instruction/wos/jan23cohort/classProject/cSharp/cSharpClockApp/obj/",
+        "projectPath": "/Users/Adriana.Pena/codingDojo/classProjectsJan23Cohort/cSharp/cSharpClockApp/cSharpClockApp.csproj",
+        "packagesPath": "/Users/Adriana.Pena/.nuget/packages/",
+        "outputPath": "/Users/Adriana.Pena/codingDojo/classProjectsJan23Cohort/cSharp/cSharpClockApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/irish/.nuget/NuGet/NuGet.Config"
+          "/Users/Adriana.Pena/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"

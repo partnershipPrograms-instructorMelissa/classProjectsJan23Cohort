@@ -8,49 +8,49 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = cSharpClockApp
 build_property.RootNamespace = cSharpClockApp
-build_property.ProjectDir = /Users/irish/coding/work/CodingDojo/instruction/wos/jan23cohort/classProject/cSharp/cSharpClockApp/
+build_property.ProjectDir = /Users/Adriana.Pena/codingDojo/classProjectsJan23Cohort/cSharp/cSharpClockApp/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/irish/coding/work/CodingDojo/instruction/wos/jan23cohort/classProject/cSharp/cSharpClockApp
+build_property.MSBuildProjectDirectory = /Users/Adriana.Pena/codingDojo/classProjectsJan23Cohort/cSharp/cSharpClockApp
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/irish/coding/work/CodingDojo/instruction/wos/jan23cohort/classProject/cSharp/cSharpClockApp/Views/Home/dashboard.cshtml]
+[/Users/Adriana.Pena/codingDojo/classProjectsJan23Cohort/cSharp/cSharpClockApp/Views/Home/dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9kYXNoYm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/irish/coding/work/CodingDojo/instruction/wos/jan23cohort/classProject/cSharp/cSharpClockApp/Views/Home/Privacy.cshtml]
+[/Users/Adriana.Pena/codingDojo/classProjectsJan23Cohort/cSharp/cSharpClockApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/irish/coding/work/CodingDojo/instruction/wos/jan23cohort/classProject/cSharp/cSharpClockApp/Views/Shared/Error.cshtml]
+[/Users/Adriana.Pena/codingDojo/classProjectsJan23Cohort/cSharp/cSharpClockApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/irish/coding/work/CodingDojo/instruction/wos/jan23cohort/classProject/cSharp/cSharpClockApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/Adriana.Pena/codingDojo/classProjectsJan23Cohort/cSharp/cSharpClockApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/irish/coding/work/CodingDojo/instruction/wos/jan23cohort/classProject/cSharp/cSharpClockApp/Views/User/index.cshtml]
+[/Users/Adriana.Pena/codingDojo/classProjectsJan23Cohort/cSharp/cSharpClockApp/Views/User/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9pbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/irish/coding/work/CodingDojo/instruction/wos/jan23cohort/classProject/cSharp/cSharpClockApp/Views/User/_Login.cshtml]
+[/Users/Adriana.Pena/codingDojo/classProjectsJan23Cohort/cSharp/cSharpClockApp/Views/User/_Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9fTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/irish/coding/work/CodingDojo/instruction/wos/jan23cohort/classProject/cSharp/cSharpClockApp/Views/User/_Register.cshtml]
+[/Users/Adriana.Pena/codingDojo/classProjectsJan23Cohort/cSharp/cSharpClockApp/Views/User/_Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9fUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/irish/coding/work/CodingDojo/instruction/wos/jan23cohort/classProject/cSharp/cSharpClockApp/Views/_ViewImports.cshtml]
+[/Users/Adriana.Pena/codingDojo/classProjectsJan23Cohort/cSharp/cSharpClockApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/irish/coding/work/CodingDojo/instruction/wos/jan23cohort/classProject/cSharp/cSharpClockApp/Views/_ViewStart.cshtml]
+[/Users/Adriana.Pena/codingDojo/classProjectsJan23Cohort/cSharp/cSharpClockApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/irish/coding/work/CodingDojo/instruction/wos/jan23cohort/classProject/cSharp/cSharpClockApp/Views/Shared/_Layout.cshtml]
+[/Users/Adriana.Pena/codingDojo/classProjectsJan23Cohort/cSharp/cSharpClockApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-hxyenibdlz
