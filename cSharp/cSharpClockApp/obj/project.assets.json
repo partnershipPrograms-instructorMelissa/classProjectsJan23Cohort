@@ -781,19 +781,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/Adriana.Pena/.nuget/packages/": {}
+    "C:\\Users\\lsnow\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Adriana.Pena/codingDojo/classProjectsJan23Cohort/cSharp/cSharpClockApp/cSharpClockApp.csproj",
+      "projectUniqueName": "C:\\Users\\lsnow\\OneDrive\\Desktop\\classProjectsJan23Cohort\\cSharp\\cSharpClockApp\\cSharpClockApp.csproj",
       "projectName": "cSharpClockApp",
-      "projectPath": "/Users/Adriana.Pena/codingDojo/classProjectsJan23Cohort/cSharp/cSharpClockApp/cSharpClockApp.csproj",
-      "packagesPath": "/Users/Adriana.Pena/.nuget/packages/",
-      "outputPath": "/Users/Adriana.Pena/codingDojo/classProjectsJan23Cohort/cSharp/cSharpClockApp/obj/",
+      "projectPath": "C:\\Users\\lsnow\\OneDrive\\Desktop\\classProjectsJan23Cohort\\cSharp\\cSharpClockApp\\cSharpClockApp.csproj",
+      "packagesPath": "C:\\Users\\lsnow\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lsnow\\OneDrive\\Desktop\\classProjectsJan23Cohort\\cSharp\\cSharpClockApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/Adriana.Pena/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\lsnow\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -847,7 +847,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.405/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
       }
     }
   }
