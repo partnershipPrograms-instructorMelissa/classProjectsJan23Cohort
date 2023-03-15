@@ -781,19 +781,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\honey\\.nuget\\packages\\": {}
+    "/Users/irish/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\cSharpClockApp\\cSharpClockApp.csproj",
+      "projectUniqueName": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/cSharpClockApp/cSharpClockApp.csproj",
       "projectName": "cSharpClockApp",
-      "projectPath": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\cSharpClockApp\\cSharpClockApp.csproj",
-      "packagesPath": "C:\\Users\\honey\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\cSharpClockApp\\obj\\",
+      "projectPath": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/cSharpClockApp/cSharpClockApp.csproj",
+      "packagesPath": "/Users/irish/.nuget/packages/",
+      "outputPath": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/cSharpClockApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\honey\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/irish/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -847,7 +847,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.405/RuntimeIdentifierGraph.json"
       }
     }
   }
