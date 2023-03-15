@@ -1,8 +1,12 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+    <div id="face">
+        <div id="hour"></div>
+        <div id="minutes"></div>
+        <div id="seconds"></div>
+    </div>
+@{
+    DateTime now = DateTime.Now;
+    <h1><span>@now.ToString("t")</span> Local</h1>
+}

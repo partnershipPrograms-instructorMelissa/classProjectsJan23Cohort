@@ -1,6 +1,6 @@
 
 @model LoginUser
-<div class="position-absolute end-0">
+<div>
     <h2>Login</h2>
     <form action="login" method="post">
         <div class="form-group row p-1">
@@ -19,6 +19,6 @@
             <input asp-for="Password" class="col-sm-5">
             <span asp-validation-for="Password"></span>
         </div>
-        <button>Login</button>
+        <button class="toolDiv btn btn-outline-info">Login</button>
     </form>
 </div>

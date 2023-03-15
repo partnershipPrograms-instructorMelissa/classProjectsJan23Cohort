@@ -24,7 +24,7 @@ body {
 	.flexcolumn();
 	width: 95%;
 	margin: auto;
-	height: 1200px;
+	// height: 1200px;
 	background-color: black;
 	background: radial-gradient(
 		circle at -8.9% 51.2%,
@@ -43,46 +43,93 @@ body {
 			color: white;
 		}
 	}
-	#face {
-		background-color: #f3f3f3;
-		width: 300px;
-		height: 300px;
-		border-radius: 50%;
-		border: 6px solid black;
-		position: relative;
+	main {
+		.flexcolumn();
+		width: 95%;
 
-		#minutes,
-		#hour,
-		#seconds {
-			position: absolute;
-			left: 50%;
-			top: 50%;
-			transform-origin: top center;
+		.row {
+			.flexrow();
+			width: 100%;
+
+			form {
+				.flexcolumn();
+
+				.toolDiv {
+					margin: 2em;
+				}
+	
+				.toolDiv:hover {
+					// animation-name: tools;
+					animation: tools 2s ease-in-out 0s infinite normal none;
+				}
+				@keyframes tools {
+					0% {
+						transform: scale3d(1, 1, 1);
+					}
+					30% {
+						transform: scale3d(1.25, 0.75, 1);
+					}
+					40% {
+						transform: scale3d(0.75, 1.25, 1);
+					}
+					50% {
+						transform: scale3d(1.15, 0.85, 1);
+					}
+					65% {
+						transform: scale3d(0.95, 1.05, 1);
+					}
+					75% {
+						transform: scale3d(1.05, 0.95, 1);
+					}
+					100% {
+						transform: scale3d(1, 1, 1);
+					}
+				}
+			}
 		}
 
-		#seconds {
-			background-color: red;
-			height: 130px;
-			width: 2px;
-			transform: rotate(180deg);
-		}
-
-		#hour {
-			background-color: black;
-			height: 100px;
-			width: 8px;
-			transform: rotate(180deg);
-			// transform: rotate(125deg);
-		}
-
-		#minutes {
-			background-color: grey;
-			height: 120px;
-			width: 4px;
-			transform: rotate(180deg);
-			// transform: rotate(255deg);
+		#face {
+			background-color: #f3f3f3;
+			width: 300px;
+			height: 300px;
+			border-radius: 50%;
+			border: 6px solid black;
+			position: relative;
+	
+			#minutes,
+			#hour,
+			#seconds {
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				transform-origin: top center;
+			}
+	
+			#seconds {
+				background-color: red;
+				height: 130px;
+				width: 2px;
+				transform: rotate(180deg);
+			}
+	
+			#hour {
+				background-color: black;
+				height: 100px;
+				width: 8px;
+				transform: rotate(180deg);
+				// transform: rotate(125deg);
+			}
+	
+			#minutes {
+				background-color: grey;
+				height: 120px;
+				width: 4px;
+				transform: rotate(180deg);
+				// transform: rotate(255deg);
+			}
 		}
 	}
+
 
 	#tools {
 		background-color: @blue;

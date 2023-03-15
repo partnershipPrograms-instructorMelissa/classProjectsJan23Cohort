@@ -1,6 +1,6 @@
 
 @model User
-<div class="position-absolute start-10">
+<div>
     <h2>Register</h2>
     <form action="register" method="post">
         <div class="form-group row p-1">
@@ -33,6 +33,6 @@
             <input asp-for="Confirm" class="col-sm-5">
             <span asp-validation-for="Confirm"></span>
         </div>
-        <button>Register</button>
+        <button class="toolDiv btn btn-outline-info">Register</button>
     </form>
 </div>

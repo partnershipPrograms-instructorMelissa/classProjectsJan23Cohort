@@ -17,7 +17,6 @@ body {
   align-items: center;
   width: 95%;
   margin: auto;
-  height: 1200px;
   background-color: black;
   background: radial-gradient(circle at -8.9% 51.2%, #ff7c00 0%, #ff7c00 15.9%, #ffa34d 15.9%, #ffa34d 24.4%, #131e25 24.5%, #131e25 66%);
   color: white;
@@ -26,7 +25,56 @@ body div #est,
 body div #cst {
   color: white;
 }
-body #face {
+body main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+}
+body main .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+body main .row form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body main .row form .toolDiv {
+  margin: 2em;
+}
+body main .row form .toolDiv:hover {
+  animation: tools 2s ease-in-out 0s infinite normal none;
+}
+@keyframes tools {
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+}
+body main #face {
   background-color: #f3f3f3;
   width: 300px;
   height: 300px;
@@ -34,27 +82,27 @@ body #face {
   border: 6px solid black;
   position: relative;
 }
-body #face #minutes,
-body #face #hour,
-body #face #seconds {
+body main #face #minutes,
+body main #face #hour,
+body main #face #seconds {
   position: absolute;
   left: 50%;
   top: 50%;
   transform-origin: top center;
 }
-body #face #seconds {
+body main #face #seconds {
   background-color: red;
   height: 130px;
   width: 2px;
   transform: rotate(180deg);
 }
-body #face #hour {
+body main #face #hour {
   background-color: black;
   height: 100px;
   width: 8px;
   transform: rotate(180deg);
 }
-body #face #minutes {
+body main #face #minutes {
   background-color: grey;
   height: 120px;
   width: 4px;
