@@ -18,6 +18,7 @@ public class HomeController : Controller
         db = context; // if you use _context above use it here too
     }
 
+    [SessionCheck]
     public IActionResult Dashboard()
     {
         return View();  

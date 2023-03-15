@@ -25,6 +25,9 @@ public class User {
     [NotMapped]
     [Compare("Password", ErrorMessage="Dang it passwords don't match try your luck again")]
     public string Confirm {get; set;}
+    [NotMapped]
+    [Required(ErrorMessage="Access to site is by invitation only please provide the code")]
+    public string InviteCode {get; set;}
 
     // [NotMapped]
     // [Compare(RegCode.RegCode, ErrorMessage ="Wrong reg code")]

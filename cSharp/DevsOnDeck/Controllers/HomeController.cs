@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using DevsOnDeck.Models;
-// using DevsOnDeck.RegCode;
+// using DevsOnDeck.Code;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
@@ -11,30 +11,33 @@ namespace DevsOnDeck.Controllers;
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
-
     private MyContext db;  // or use _context instead of db
-
     public HomeController(ILogger<HomeController> logger, MyContext context)
     {
         _logger = logger;
         db = context; // if you use _context above use it here too
     }
-    private int? uid {
+    private string? key { // Invite code
+        get {
+            return HttpContext.Session.GetString("key");
+        }
+    }
+    private int? uid { // Session logged in
         get {
             return HttpContext.Session.GetInt32("uid");
         }
     }
-    private int? level {
+    private int? level { // access level default 1
         get {
             return HttpContext.Session.GetInt32("level");
         }
     }
-    private string? name {
+    private string? name { // fullname
         get {
             return HttpContext.Session.GetString("name");
         }
     }
-    private string? type {
+    private string? type { // session access - side visiting
         get {
             return HttpContext.Session.GetString("type");
         }
@@ -59,13 +62,16 @@ public class HomeController : Controller
         if(HttpContext.Session.GetInt32("uid") != null) {
             return RedirectToAction("Dashboard");
         } else {
+            HttpContext.Session.SetString("key", "Be3D#vS3rv1ce5");
             return View("LogReg");
         }
     }
-
     [HttpPost("/register")]
     public IActionResult Register(User newUser) {
         if(ModelState.IsValid) {
+            if(newUser.InviteCode != key) {
+                ModelState.AddModelError("InviteCode", "Wrong Code");
+            }
             if(db.Users.Any(User => User.Email == newUser.Email)) {
                 ModelState.AddModelError("Email", "is taken");
             }
@@ -77,6 +83,7 @@ public class HomeController : Controller
         newUser.Password = hash.HashPassword(newUser, newUser.Password);
         db.Users.Add(newUser);
         db.SaveChanges();
+        HttpContext.Session.Clear();
         HttpContext.Session.SetInt32("uid", newUser.UserId);
         HttpContext.Session.SetString("name", newUser.FullName());
         HttpContext.Session.SetInt32("level", newUser.AccessLevel);
@@ -93,7 +100,6 @@ public class HomeController : Controller
     }
     [HttpPost("/login")]
     public IActionResult Login(Login getUser) {
-        Console.WriteLine("====================================== login function entry");
         if(!ModelState.IsValid) {
             return View("LogReg");
         } else {
@@ -113,9 +119,7 @@ public class HomeController : Controller
                     HttpContext.Session.SetInt32("level", userInDb.AccessLevel);
                     HttpContext.Session.SetString("type", "Gen");
                     HttpContext.Session.SetString("role", userInDb.AccessType);
-                    Console.WriteLine($"==================********************** What access level am I? {userInDb.AccessLevel}");
                     if(userInDb.AccessLevel > 20) {
-                        Console.WriteLine("********************************************** what the F and you getting this?");
                         userInDb.AccessType = "Admin";
                         db.Users.Update(userInDb);
                         db.SaveChanges();
@@ -155,9 +159,6 @@ public class HomeController : Controller
 
         return View("NotAuth");
     }
-
-
-
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()

@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using DevsOnDeck.Models;
 
 var builder = WebApplication.CreateBuilder(args);
+var InviteCode = builder.Configuration["Invite:InviteKey"];
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
@@ -17,6 +18,7 @@ builder.Services.AddDbContext<MyContext>(options =>
 
 
 var app = builder.Build();
+// app.MapGet("/", () => InviteCode);
 
 if (!app.Environment.IsDevelopment())
 {

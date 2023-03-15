@@ -59,16 +59,6 @@ public class AdminController: Controller
     public IActionResult AllUsers() {
         List<User> allUsers = db.Users
         .ToList();
-        // Random rand = new Random();
-        // string newCode = "";
-        // string avail = "abcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-        // int size = avail.Length;
-        // Console.WriteLine($"newCode before: {newCode}, avail: {avail}, size: {size}");
-        // while(newCode.Length < 13) {
-        //     newCode += avail[rand.Next(size)];
-        //     Console.WriteLine($"newCode in while: {newCode}");
-        // }
-        // Console.WriteLine($"newCode after while: {newCode}");
         return View("AllUsers", allUsers);
     }
     [AdminCheck]
@@ -135,6 +125,8 @@ public class AdminController: Controller
         db.SaveChanges();
         return Redirect("/Admin/OrgCodes");
     }
+
+// !!!! BackLog Ideas
 
 // *** Remove User
 // *** Remove Org

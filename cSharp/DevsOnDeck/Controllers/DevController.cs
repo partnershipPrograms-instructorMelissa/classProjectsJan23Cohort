@@ -48,6 +48,7 @@ public class DevController: Controller
         d.UserId = (int)uid;
         db.Devs.Add(d);
         db.SaveChanges();
+        HttpContext.Session.SetInt32("level", d.DevId);
         return Redirect("/Developer/Dashboard");
     }
 
@@ -68,9 +69,11 @@ public class DevController: Controller
     }
 
     // *** profile
-    // *** update profile
     // *** add skills page
-    // *** add skills function
+    // *** create skills function
     // *** view jobs - all
+
+// !!!!! BackLog Ideas
+    // *** update profile
     // *** view jobs - skill based
 }

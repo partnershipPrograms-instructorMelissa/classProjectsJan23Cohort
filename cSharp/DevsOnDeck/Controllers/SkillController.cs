@@ -6,12 +6,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DevsOnDeck.Controllers;
 
-public class OrgController: Controller 
-{
-
-    private MyContext db;  // or use _context instead of db (Make sure this matches on all controller files)
-    
-    public OrgController(MyContext context)
+public class SkillController : Controller {
+    private MyContext db;  // or use _context instead of db (Make sure this matches on all controller files)  
+    public SkillController(MyContext context)
     {
         db = context; // if you use _context above use it here too (Make sure this matches on all controller files)
     }
@@ -41,25 +38,10 @@ public class OrgController: Controller
         }
     }
     [SessionCheck]
-    [HttpPost("/Organization/CheckCode")]
-    public IActionResult CheckCode(CheckCode code) {
-        if(!ModelState.IsValid) {
-            return View("Dashboard", "Home");
-        }
-        return View("Index");
+    [HttpGet("/Skill/AllSkills")]
+    public IActionResult AllSkills() {
+        List<Skill> allSkills = db.Skills
+        .ToList();
+        return View("AllSkills", allSkills);
     }
-    
-
-    // *** view profile
-    // *** update profile
-    // *** add jobs form
-    // *** create job
-    // *** add skills form
-    // *** create skills
-    // *** all jobs
-    // *** all jobs with matched dev
-
-    // !!!!!! BackLog Ideas
-    // *** delete job
-    // *** update job
 }

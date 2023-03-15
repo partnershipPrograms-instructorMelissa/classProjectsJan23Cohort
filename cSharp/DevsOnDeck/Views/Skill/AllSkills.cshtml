@@ -1,0 +1,37 @@
+@{
+    ViewData["Title"] = "Skills";
+}
+@model List<Skill>
+<h1>Welcome to the Skills section</h1>
+@{
+    if(Context.Session.GetString("type") == "Dev") {
+        <p>Below you will find 3 lists. Languages, Tools, and Frameworks.  On the left is what is already added to our system with links to allow you to add it to your own list of skills which you will find on the right as well as a form to add any you have which you do not see on the left</p>
+    }
+    else if(Context.Session.GetString("type") == "Org") {
+        <p>Below you will find 3 lists. Languages, Tools, and Frameworks.  In each table you will find a link enabling you to add it to a job posting</p>
+    }
+    else {
+        <p>Below you will find 3 lists. Languages, Tools, and Frameworks.  On the left is what is already added to our system.</p>
+    }
+}
+<h2>Languages</h2>
+<div class="row">
+    <table>
+        <tr></tr>
+    </table>
+    <div class="column"></div>
+</div>
+<h2>Tools</h2>
+<div class="row">
+    <table>
+        <tr></tr>
+    </table>
+    <div class="column"></div>
+</div>
+<h2>Frameworks</h2>
+<div class="row">
+    <table>
+        <tr></tr>
+    </table>
+    <div class="column"></div>
+</div>

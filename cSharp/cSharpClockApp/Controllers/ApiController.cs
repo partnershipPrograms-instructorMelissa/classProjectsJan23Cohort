@@ -1,6 +1,6 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc.Filters;
 using cSharpClockApp.Models;
 
 namespace cSharpClockApp.Controllers;
@@ -14,7 +14,7 @@ public class ApiController : Controller
     {
         db = context;
     }
-
+    [SessionCheck]
     [HttpGet("/apiRoot")]
     public IActionResult ApiRoot() {
         return View("ApiRoot");

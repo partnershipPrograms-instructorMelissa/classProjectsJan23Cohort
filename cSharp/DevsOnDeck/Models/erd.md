@@ -20,3 +20,9 @@ if access > 20 = go to admin dash
 if access > 10 = go to org dash
 if access = 2 = go to dev dash
 if access = 4 || 1 go to chose side
+
+uid =  UserId
+name = FullName()
+level = AccessLevel = 1/2/4/12/14/22/24
+type = Gen/Dev/Org/Admin/SuperAdmin/temp
+role = AccessType = SuperAdmin/Admin
