@@ -64,9 +64,27 @@ public class DevController: Controller
             db.Users.Update(theUser);
             db.SaveChanges();
         }
+        MyViews userInfo = new MyViews {
+            // AllUserProfile = db.UserProfiles.ToList(),
+            UserProfile = db.UserProfiles
+            .Include(prof => prof.owner)
+            .FirstOrDefault(prof => prof.UserId == (int)uid),
+            DevSkills = db.DevSkills.ToList()
+        };
         
-        return View("DevDash", "Dev");
+        return View("DevDash",userInfo);
     }
+    // [SessionCheck]
+    // [HttpPost("/Developer/Profile/{UserId}/Create")]
+    // public IActionResult CreateDevProfile(UserProfile up) {
+    //     up.UserId = (int)uid;
+    //     if(ModelState.IsValid) {
+    //         db.UserProfiles.Add(up);
+    //         db.SaveChanges();
+    //         return Redirect("DevDash");
+    //     }
+    //     return View("DevDash");
+    // }
 
     // *** profile
     // *** add skills page
