@@ -17,9 +17,41 @@
 <h2>Languages</h2>
 <div class="row">
     <table>
-        <tr></tr>
+        <tr>
+            <th>Name</th>
+            <th>Image</th>
+        </tr>
+        @foreach(Skill s in Model) {
+            <tr>
+                <td>@s.SkillName</td>
+                @if(@s.SkillImg == "N/A") {
+                    <td>N/A</td>
+                } else {
+                    <td><img src="@s.SkillImg" alt="@s.SkillName"></td>
+                }
+            </tr>
+        }
     </table>
-    <div class="column"></div>
+    <div class="column">
+        <div class="wrapRow">
+
+        </div>
+        <form action="/Skill/CreateSkill" method='post'>
+            <section>
+                <label for="SkillName">Name of Skill</label>
+                <input type="text" name="SkillName" id="">
+            </section>
+            <section>
+                <label for="SkillImg">Link to Image of Skill (N/A if no link)</label>
+                <input type="text" name="SkillImg" id="">
+            </section>
+            <section>
+                <label for="SkillType">Skill Type</label>
+                <input type="text" name="SkillType" value="Language">
+            </section>
+            <button>Add Language Skill</button>
+        </form>
+    </div>
 </div>
 <h2>Tools</h2>
 <div class="row">

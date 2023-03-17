@@ -44,4 +44,11 @@ public class SkillController : Controller {
         .ToList();
         return View("AllSkills", allSkills);
     }
+    [SessionCheck]
+    [HttpPost("/Skill/CreateSkill")]
+    public IActionResult CreateSkill(Skill s) {
+        db.Skills.Add(s);
+        db.SaveChanges();
+        return Redirect("/Skill/AllSkills");
+    }
 }

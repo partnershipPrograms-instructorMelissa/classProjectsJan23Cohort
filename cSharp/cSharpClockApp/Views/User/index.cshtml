@@ -2,15 +2,7 @@
     ViewData["Title"] = "Index";
 }
 
-    <div id="face">
-        <div id="hour"></div>
-        <div id="minutes"></div>
-        <div id="seconds"></div>
-    </div>
-@{
-    DateTime now = DateTime.Now;
-    <h1><span>@now.ToString("t")</span> Local</h1>
-}
+
 <div class="row">
     @await Html.PartialAsync("_Register")
     @await Html.PartialAsync("_Login")

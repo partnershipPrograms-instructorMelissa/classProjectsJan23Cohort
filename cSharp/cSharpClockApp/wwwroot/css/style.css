@@ -21,6 +21,58 @@ body {
   background: radial-gradient(circle at -8.9% 51.2%, #ff7c00 0%, #ff7c00 15.9%, #ffa34d 15.9%, #ffa34d 24.4%, #131e25 24.5%, #131e25 66%);
   color: white;
 }
+body header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+}
+body header .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+}
+body header .row h1 {
+  margin: 0;
+  padding: 0;
+}
+body header .row #face {
+  background-color: #f3f3f3;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 6px solid black;
+  position: relative;
+}
+body header .row #face #minutes,
+body header .row #face #hour,
+body header .row #face #seconds {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform-origin: top center;
+}
+body header .row #face #seconds {
+  background-color: red;
+  height: 130px;
+  width: 2px;
+  transform: rotate(180deg);
+}
+body header .row #face #hour {
+  background-color: black;
+  height: 100px;
+  width: 8px;
+  transform: rotate(180deg);
+}
+body header .row #face #minutes {
+  background-color: grey;
+  height: 120px;
+  width: 4px;
+  transform: rotate(180deg);
+}
 body div #est,
 body div #cst {
   color: white;
@@ -73,40 +125,6 @@ body main .row form .toolDiv:hover {
   100% {
     transform: scale3d(1, 1, 1);
   }
-}
-body main #face {
-  background-color: #f3f3f3;
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  border: 6px solid black;
-  position: relative;
-}
-body main #face #minutes,
-body main #face #hour,
-body main #face #seconds {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform-origin: top center;
-}
-body main #face #seconds {
-  background-color: red;
-  height: 130px;
-  width: 2px;
-  transform: rotate(180deg);
-}
-body main #face #hour {
-  background-color: black;
-  height: 100px;
-  width: 8px;
-  transform: rotate(180deg);
-}
-body main #face #minutes {
-  background-color: grey;
-  height: 120px;
-  width: 4px;
-  transform: rotate(180deg);
 }
 body #tools {
   background-color: #d1e8f5;
