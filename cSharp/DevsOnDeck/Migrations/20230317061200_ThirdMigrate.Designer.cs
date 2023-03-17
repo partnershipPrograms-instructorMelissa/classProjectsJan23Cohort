@@ -3,6 +3,7 @@ using System;
 using DevsOnDeck.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DevsOnDeck.Migrations
 {
     [DbContext(typeof(MyContext))]
-    partial class MyContextModelSnapshot : ModelSnapshot
+    [Migration("20230317061200_ThirdMigrate")]
+    partial class ThirdMigrate
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -136,10 +138,6 @@ namespace DevsOnDeck.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime(6)");
 
-                    b.Property<string>("OrgName")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
                     b.Property<DateTime>("UpdatedAt")
                         .HasColumnType("datetime(6)");
 
@@ -153,9 +151,9 @@ namespace DevsOnDeck.Migrations
                     b.ToTable("Orgs");
                 });
 
-            modelBuilder.Entity("DevsOnDeck.Models.OrgMember", b =>
+            modelBuilder.Entity("DevsOnDeck.Models.OrgList", b =>
                 {
-                    b.Property<int>("OrgMemberId")
+                    b.Property<int>("OrgListId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
@@ -171,13 +169,13 @@ namespace DevsOnDeck.Migrations
                     b.Property<int>("UserId")
                         .HasColumnType("int");
 
-                    b.HasKey("OrgMemberId");
+                    b.HasKey("OrgListId");
 
                     b.HasIndex("OrgId");
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("OrgMembers");
+                    b.ToTable("OrgLists");
                 });
 
             modelBuilder.Entity("DevsOnDeck.Models.OrgProfile", b =>
@@ -432,7 +430,7 @@ namespace DevsOnDeck.Migrations
                     b.Navigation("theOrgCreator");
                 });
 
-            modelBuilder.Entity("DevsOnDeck.Models.OrgMember", b =>
+            modelBuilder.Entity("DevsOnDeck.Models.OrgList", b =>
                 {
                     b.HasOne("DevsOnDeck.Models.Org", "theOrg")
                         .WithMany("OrgMembers")

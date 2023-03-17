@@ -2,9 +2,9 @@
 using System.ComponentModel.DataAnnotations;
 namespace DevsOnDeck.Models;
 
-public class OrgList {
+public class OrgMember {
     [Key]
-    public int OrgListId {get; set;}
+    public int OrgMemberId {get; set;}
     public DateTime CreatedAt { get; set; } = DateTime.Now;
     public DateTime UpdatedAt { get; set; } = DateTime.Now;
 

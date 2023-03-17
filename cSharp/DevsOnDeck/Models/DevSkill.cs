@@ -14,6 +14,6 @@ public class DevSkill {
 // **** Dev skills many Many id side
     public int SkillId {get; set;}
     public Skill? theSkill {get; set;}
-    public int DevId {get; set;}
-    public Dev? theDev {get; set;}
+    public int UserId {get; set;}
+    public User? theDev {get; set;}
 }

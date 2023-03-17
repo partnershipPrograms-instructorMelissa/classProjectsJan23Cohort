@@ -36,12 +36,13 @@ public class User {
 
     // ******** One to one non id side
     public UserProfile? theProfile {get; set;}
-    public Dev? myDev {get; set;}
+    // public Dev? myDev {get; set;}
 
     // ******* One to Many List side
     public List<Org> createdOrgs {get; set;} = new List<Org>();
-    public List<OrgList> memberOf {get;set;} = new List<OrgList>();
+    public List<OrgMember> memberOf {get;set;} = new List<OrgMember>();
     public List<RandKey> theKeys {get; set;} = new List<RandKey>();
+    public List<DevSkill> mySkills {get; set;} = new List<DevSkill>();
 
     public string FullName() {
         return FirstName + " " + LastName;

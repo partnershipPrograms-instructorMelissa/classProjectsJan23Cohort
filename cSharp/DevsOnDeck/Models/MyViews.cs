@@ -9,8 +9,8 @@ public class MyViews {
     public List<UserProfile> allUserProfile {get;set;}
 
     // **** Dev
-    public Dev Dev {get;set;}
-    public List<Dev> allDevs {get;set;}
+    // public Dev Dev {get;set;}
+    // public List<Dev> allDevs {get;set;}
     public DevSkill DevSkill {get;set;}
     public List<DevSkill> DevSkills {get;set;}
 
@@ -32,8 +32,8 @@ public class MyViews {
     public List<Skill> allSkills {get;set;}
 
     // **** OrgMembers
-    public OrgList OrgList {get;set;}
-    public List<OrgList> allOrgLists {get;set;}
+    public OrgMember OrgList {get;set;}
+    public List<OrgMember> allOrgMembers {get;set;}
 
     // **** Admin
     public RandKey RandKey {get; set;}

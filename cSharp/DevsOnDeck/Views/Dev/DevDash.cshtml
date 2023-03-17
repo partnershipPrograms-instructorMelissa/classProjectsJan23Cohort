@@ -1,4 +1,9 @@
 @{
     ViewData["Title"] = "Developer Dashboard";
 }
+@model MyViews
 <h1>@Context.Session.GetString("name")'s Developer Dashboard</h1>
+
+<div class="row">
+    @await Html.PartialAsync("_Profile", Model.UserProfile)
+</div>

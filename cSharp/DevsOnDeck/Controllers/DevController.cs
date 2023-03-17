@@ -42,15 +42,15 @@ public class DevController: Controller
     }
     
 
-    [SessionCheck]
-    [HttpPost("/Developer/CreateDevId")]
-    public IActionResult CreateDevId(Dev d) {
-        d.UserId = (int)uid;
-        db.Devs.Add(d);
-        db.SaveChanges();
-        HttpContext.Session.SetInt32("level", d.DevId);
-        return Redirect("/Developer/Dashboard");
-    }
+    // [SessionCheck]
+    // [HttpPost("/Developer/CreateDevId")]
+    // public IActionResult CreateDevId(Dev d) {
+    //     d.UserId = (int)uid;
+    //     db.Devs.Add(d);
+    //     db.SaveChanges();
+    //     HttpContext.Session.SetInt32("level", d.DevId);
+    //     return Redirect("/Developer/Dashboard");
+    // }
 
     // [AdminCheck]
     [SessionCheck]
@@ -63,10 +63,36 @@ public class DevController: Controller
             theUser.AccessLevel = 2;
             db.Users.Update(theUser);
             db.SaveChanges();
+            HttpContext.Session.SetInt32("level", theUser.AccessLevel);
         }
-        return View("DevDash");
+        // MyViews userInfo = new MyViews {
+        //     UserProfile = db.UserProfiles
+        //     .Include(prof => prof.owner)
+        //     .FirstOrDefault(prof => prof.UserId == (int)uid),
+        //     Skill = (Skill)db.Skills
+        //     .Include(s => s.skilledDevs)
+        //     .Where(sd => sd.SkillId == sd.SkillId)
 
+        // };
+        MyViews? userInfo = new MyViews {
+            UserProfile = db.UserProfiles
+            .Include(u => u.owner)
+            .FirstOrDefault(u => u.UserId == (int)uid)
+        };
+        
+        return View("DevDash",userInfo);
     }
+    // [SessionCheck]
+    // [HttpPost("/Developer/Profile/{UserId}/Create")]
+    // public IActionResult CreateDevProfile(UserProfile up) {
+    //     up.UserId = (int)uid;
+    //     if(ModelState.IsValid) {
+    //         db.UserProfiles.Add(up);
+    //         db.SaveChanges();
+    //         return Redirect("DevDash");
+    //     }
+    //     return View("DevDash");
+    // }
 
     // *** profile
     // *** add skills page

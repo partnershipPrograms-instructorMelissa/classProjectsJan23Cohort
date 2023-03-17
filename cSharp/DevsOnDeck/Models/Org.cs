@@ -7,6 +7,8 @@ public class Org {
     [Key]
     public int OrgId {get; set;}
     [Required]
+    public string OrgName {get; set;}
+    [Required]
     public string ContactName {get; set;}
     [Required]
     [EmailAddress]
@@ -25,5 +27,5 @@ public class Org {
     public OrgProfile? orgProf {get; set;}
 
     // ******* One to Many List side
-    public List<OrgList> OrgMembers {get; set;} = new List<OrgList>();
+    public List<OrgMember> OrgMembers {get; set;} = new List<OrgMember>();
 }

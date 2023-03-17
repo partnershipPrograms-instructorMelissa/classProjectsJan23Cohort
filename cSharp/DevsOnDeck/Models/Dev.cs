@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 namespace DevsOnDeck.Models;
 
+[NotMapped]
 public class Dev {
     [Key]
     public int DevId {get; set;}
