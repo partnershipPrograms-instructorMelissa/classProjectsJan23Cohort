@@ -150,7 +150,10 @@ public class HomeController : Controller
     [SessionCheck]
     [HttpGet("/Profile")]
     public IActionResult UserProfile() {
-        User? theUser = db.Users.FirstOrDefault(u => uid == u.UserId);
+        MyViews theUser = new MyViews {
+            User = db.Users.FirstOrDefault(u => uid == u.UserId),
+            UserProfile = db.UserProfiles.FirstOrDefault(up => uid == up.UserId)
+        };
         return View("Profile", theUser);
     }
 

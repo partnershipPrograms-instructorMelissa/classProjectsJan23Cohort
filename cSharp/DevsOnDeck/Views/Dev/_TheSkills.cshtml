@@ -1,0 +1,10 @@
+@* @model List<Skill>
+
+    <section>
+        <label for="SkillId">Chose your Skill</label>
+        <select name="SkillId" id="">
+            @forEach(Skill s in Model) {
+                <option value="@s.SkillId">@s.SkillType - @s.SkillName</option>
+            }
+        </select>
+    </section> *@

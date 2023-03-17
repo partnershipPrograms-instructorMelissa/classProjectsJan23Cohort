@@ -1,12 +1,16 @@
 @{
     ViewData["Title"] = "Landing Page";
 }
-@model User
+@model MyViews
 <h1>@Context.Session.GetString("name")'s Profile Page</h1>
+@await Html.PartialAsync("_UserInfo", Model.User)
+<h2>Additional Profile Information</h2>
+@await Html.PartialAsync("_Profile", @Model.UserProfile)
 
-<h2>Full Name: @Model.FullName()</h2>
-<h3>Email Address: @Model.Email</h3>
-<h3>UserName: @Model.Username</h3>
+@if(@Model.UserProfile.Address == null) {
+    <button><a href="/Developer/AddProfile">Add More information</a></button>
+}
+<button><a href="/Developer/EditProfile">Edit Extra information</a></button>
 
 @if(@Context.Session.GetString("type") == "Dev") {
     <h4>You were last seen on the Developer side of the website</h4>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jgprGuiBgKTFYtoz+98v25+a79Zov9YG/BvJzMEGxAs=",
+  "Hash": "CNua/WhylVK5E13IpDufIN3X859/l6wV8tKDeKbiH2c=",
   "Source": "DevsOnDeck",
   "BasePath": "_content/DevsOnDeck",
   "Mode": "Default",
@@ -8,19 +8,19 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "DevsOnDeck\\wwwroot",
+      "Name": "DevsOnDeck/wwwroot",
       "Source": "DevsOnDeck",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\obj\\Debug\\net6.0\\scopedcss\\bundle\\DevsOnDeck.styles.css",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/obj/Debug/net6.0/scopedcss/bundle/DevsOnDeck.styles.css",
       "SourceId": "DevsOnDeck",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/obj/Debug/net6.0/scopedcss/bundle/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "DevsOnDeck.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\obj\\Debug\\net6.0\\scopedcss\\bundle\\DevsOnDeck.styles.css"
+      "OriginalItemSpec": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/obj/Debug/net6.0/scopedcss/bundle/DevsOnDeck.styles.css"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\DevsOnDeck.bundle.scp.css",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/obj/Debug/net6.0/scopedcss/projectbundle/DevsOnDeck.bundle.scp.css",
       "SourceId": "DevsOnDeck",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/obj/Debug/net6.0/scopedcss/projectbundle/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "DevsOnDeck.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\DevsOnDeck.bundle.scp.css"
+      "OriginalItemSpec": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/obj/Debug/net6.0/scopedcss/projectbundle/DevsOnDeck.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\.DS_Store",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/.DS_Store",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": ".DS_Store",
       "AssetKind": "All",
@@ -65,13 +65,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\.DS_Store"
+      "OriginalItemSpec": "wwwroot/.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\css\\base.css",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/css/base.css",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "css/base.css",
       "AssetKind": "All",
@@ -82,13 +82,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\base.css"
+      "OriginalItemSpec": "wwwroot/css/base.css"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\css\\base.less",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/css/base.less",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "css/base.less",
       "AssetKind": "All",
@@ -99,13 +99,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\base.less"
+      "OriginalItemSpec": "wwwroot/css/base.less"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\css\\media.less",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/css/media.less",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "css/media.less",
       "AssetKind": "All",
@@ -116,13 +116,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\media.less"
+      "OriginalItemSpec": "wwwroot/css/media.less"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\css\\site.css",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/css/site.css",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -133,13 +133,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\site.css"
+      "OriginalItemSpec": "wwwroot/css/site.css"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\css\\site.less",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/css/site.less",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "css/site.less",
       "AssetKind": "All",
@@ -150,13 +150,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\site.less"
+      "OriginalItemSpec": "wwwroot/css/site.less"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\favicon.ico",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/favicon.ico",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -167,13 +167,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.ico"
+      "OriginalItemSpec": "wwwroot/favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\img\\403.png",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/img/403.png",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "img/403.png",
       "AssetKind": "All",
@@ -184,13 +184,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\403.png"
+      "OriginalItemSpec": "wwwroot/img/403.png"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\js\\site.js",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/js/site.js",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -201,13 +201,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\site.js"
+      "OriginalItemSpec": "wwwroot/js/site.js"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -218,13 +218,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -235,13 +235,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -252,13 +252,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -269,13 +269,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -286,13 +286,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -303,13 +303,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -320,13 +320,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -337,13 +337,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -354,13 +354,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -371,13 +371,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -388,13 +388,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -405,13 +405,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -422,13 +422,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -439,13 +439,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -456,13 +456,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -473,13 +473,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -490,13 +490,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -507,13 +507,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -524,13 +524,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -541,13 +541,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -558,13 +558,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -575,13 +575,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -592,13 +592,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -609,13 +609,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -626,13 +626,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -643,13 +643,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -660,13 +660,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -677,13 +677,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -694,13 +694,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -711,13 +711,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -728,13 +728,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -745,13 +745,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -762,13 +762,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -779,13 +779,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -796,13 +796,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -813,13 +813,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -830,13 +830,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -847,13 +847,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -864,13 +864,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -881,13 +881,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -898,13 +898,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -915,13 +915,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -932,13 +932,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -949,13 +949,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/bootstrap/LICENSE",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -966,13 +966,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/LICENSE"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -983,13 +983,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1000,13 +1000,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1017,13 +1017,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/jquery-validation/dist/additional-methods.js",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1034,13 +1034,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1051,13 +1051,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1068,13 +1068,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1085,13 +1085,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/jquery-validation/LICENSE.md",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1102,13 +1102,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation/LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/jquery/dist/jquery.js",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1119,13 +1119,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
+      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.js"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/jquery/dist/jquery.min.js",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1136,13 +1136,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
+      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/jquery/dist/jquery.min.map",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1153,13 +1153,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
+      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/lib/jquery/LICENSE.txt",
       "SourceId": "DevsOnDeck",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\wwwroot\\",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/wwwroot/",
       "BasePath": "_content/DevsOnDeck",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1170,7 +1170,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+      "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
     }
   ]
 }

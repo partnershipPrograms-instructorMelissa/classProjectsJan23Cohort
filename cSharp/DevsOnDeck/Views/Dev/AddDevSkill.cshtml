@@ -1,0 +1,7 @@
+@* @model MyViews
+
+Add Skills to your ToolBox
+<form action="/Developer/CreateDevSkill" method='post'>
+    @await Html.PartialAsync("_TheSkills", Model.allSkills)
+    <button>Add Skill</button>
+</form> *@

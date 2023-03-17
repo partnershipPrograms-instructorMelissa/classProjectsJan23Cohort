@@ -40,19 +40,7 @@ public class DevController: Controller
             return HttpContext.Session.GetString("role");
         }
     }
-    
 
-    // [SessionCheck]
-    // [HttpPost("/Developer/CreateDevId")]
-    // public IActionResult CreateDevId(Dev d) {
-    //     d.UserId = (int)uid;
-    //     db.Devs.Add(d);
-    //     db.SaveChanges();
-    //     HttpContext.Session.SetInt32("level", d.DevId);
-    //     return Redirect("/Developer/Dashboard");
-    // }
-
-    // [AdminCheck]
     [SessionCheck]
     [HttpGet("/Developer/Dashboard")]
     public IActionResult DevDash() {
@@ -65,36 +53,42 @@ public class DevController: Controller
             db.SaveChanges();
             HttpContext.Session.SetInt32("level", theUser.AccessLevel);
         }
-        // MyViews userInfo = new MyViews {
-        //     UserProfile = db.UserProfiles
-        //     .Include(prof => prof.owner)
-        //     .FirstOrDefault(prof => prof.UserId == (int)uid),
-        //     Skill = (Skill)db.Skills
-        //     .Include(s => s.skilledDevs)
-        //     .Where(sd => sd.SkillId == sd.SkillId)
-
-        // };
-        MyViews? userInfo = new MyViews {
-            UserProfile = db.UserProfiles
-            .Include(u => u.owner)
-            .FirstOrDefault(u => u.UserId == (int)uid)
-        };
-        
-        return View("DevDash",userInfo);
+        return View("DevDash");
+    }
+    [SessionCheck]
+    [HttpGet("/Developer/AddProfile")]
+    public IActionResult AddProfile() {
+        return View("AddProfile");
+    }
+    [SessionCheck]
+    [HttpPost("/Developer/CreateProfile")]
+    public IActionResult CreateProfile(UserProfile prof) {
+        prof.UserId = (int)uid;
+        if(ModelState.IsValid) {
+            db.UserProfiles.Add(prof);
+            db.SaveChanges();
+            return Redirect("Dashboard");
+        }
+        return View("AddProfile");
     }
     // [SessionCheck]
-    // [HttpPost("/Developer/Profile/{UserId}/Create")]
-    // public IActionResult CreateDevProfile(UserProfile up) {
-    //     up.UserId = (int)uid;
-    //     if(ModelState.IsValid) {
-    //         db.UserProfiles.Add(up);
-    //         db.SaveChanges();
-    //         return Redirect("DevDash");
-    //     }
-    //     return View("DevDash");
+    // [HttpGet("/Developer/AddDevSkill")]
+    // public IActionResult AddDevSkill() {
+    //     MyViews theSkills = new MyViews {
+    //         allSkills = db.Skills.ToList()
+    //     };
+    //     return View("AddDevSkill", theSkills);
+    // }
+    // [SessionCheck]
+    // [HttpPost("Developer/CreateDevSkill")]
+    // public IActionResult CreateDevSkill() {
+
     // }
 
-    // *** profile
+
+
+
+    // // *** profile
     // *** add skills page
     // *** create skills function
     // *** view jobs - all

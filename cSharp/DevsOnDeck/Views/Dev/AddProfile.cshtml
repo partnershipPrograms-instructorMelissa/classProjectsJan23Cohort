@@ -1,0 +1,44 @@
+@{
+    ViewData["Title"] = "Developer Dashboard";
+}
+@model UserProfile
+<h1>@Context.Session.GetString("name")'s Developer Dashboard</h1>
+
+<form action="/Developer/CreateProfile" method="post">
+    <section>
+        <label for="Address">Stree Address</label>
+        <input type="text" name="Address" id="">
+        <span asp-validation-for="Address"></span>
+    </section>
+    <section>
+        <label for="City">City</label>
+        <input type="text" name="City" id="">
+        <span asp-validation-for="City"></span>
+    </section>
+    <section>
+        <label for="State">State</label>
+        <input type="text" name="State" id="">
+        <span asp-validation-for="State"></span>
+    </section>
+    <section>
+        <label for="Zip">Zip Code</label>
+        <input type="text" name="Zip" id="">
+        <span asp-validation-for="Zip"></span>
+    </section>
+    <section>
+        <label for="Bio">Short Bio</label>
+        <textarea name="Bio" id="" cols="30" rows="10"></textarea>
+        <span asp-validation-for="Bio"></span>
+    </section>
+    <section>
+        <label for="LinkedIn">LinkedIn LInk</label>
+        <input type="text" name="LinkedIn" id="">
+        <span asp-validation-for="LinkedIn"></span>
+    </section>
+    <section>
+        <label for="Github">Github</label>
+        <input type="text" name="Github" id="">
+        <span asp-validation-for="Github"></span>
+    </section>
+    <button>Add Profile</button>
+</form>

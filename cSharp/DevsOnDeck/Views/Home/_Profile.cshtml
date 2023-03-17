@@ -1,0 +1,17 @@
+
+
+@model UserProfile
+@if(@Model.Address != null) {
+    <div class="column">
+        <h3>Your Information</h3>
+        <address>
+            <span>Street: @Model.Address</span>
+            <span>City: @Model.City</span>
+            <span>State: @Model.State</span>
+            <span>Zip: @Model.Zip</span>
+        </address>
+        <h3>Social Links</h3>
+        <span>LinkedIn: <a href="@Model.LinkedIn">LinkedIn</a></span>
+        <span>Github: <a href="@Model.Github">Github</a></span>
+    </div>
+}
