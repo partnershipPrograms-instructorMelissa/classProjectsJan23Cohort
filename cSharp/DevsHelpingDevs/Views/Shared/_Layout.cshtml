@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Devs Helping Devs</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <div class="row">
+            <h1>Devs Helping Devs</h1>
+            <nav>
+                <a href="/">Home</a>
+                <a href="/Jobs">Jobs</a>
+                <a href="About"Abot>About</a>
+                <a href="/Contact">Contact</a>
+                @* if not in session *@
+                @if(@Context.Session.GetInt32("uid") == null) {
+                    <button><a href="/logreg">Login/Signup</a></button>
+                @* if in session *@
+                } else {
+                    <button><a href="/logout">Logout</a></button>
+                }
+            </nav>
+        </div>
+        @if(@Context.Session.GetInt32("uid") != null) {
+            <nav>
+                <a href="/User/Profile">Profil</a>
+                @if(@Context.Session.GetInt32("level") > 4) {
+                    <a href="/Org">Organization</a>
+                }
+                @if(@Context.Session.GetInt32("level") > 20) {
+                    <a href="/Admin">Admin</a>
+                }
+            </nav>
+        }
+    </header>
+    <main>
+        @RenderBody()
+    </main>
+    <footer>
+        <p class="footer">&copy; 2023 - Devs Helping Devs</p>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -5,12 +5,14 @@
 <h1>@Context.Session.GetString("name")'s Profile Page</h1>
 @await Html.PartialAsync("_UserInfo", Model.User)
 <h2>Additional Profile Information</h2>
-@await Html.PartialAsync("_Profile", @Model.UserProfile)
 
 @if(@Model.UserProfile.Address == null) {
     <button><a href="/Developer/AddProfile">Add More information</a></button>
+} else {
+    @* @await Html.PartialAsync("_Profile", @Model.UserProfile) *@
+    <button><a href="/Developer/EditProfile">Edit Extra information</a></button>
 }
-<button><a href="/Developer/EditProfile">Edit Extra information</a></button>
+
 
 @if(@Context.Session.GetString("type") == "Dev") {
     <h4>You were last seen on the Developer side of the website</h4>

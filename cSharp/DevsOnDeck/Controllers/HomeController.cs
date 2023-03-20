@@ -152,8 +152,9 @@ public class HomeController : Controller
     public IActionResult UserProfile() {
         MyViews theUser = new MyViews {
             User = db.Users.FirstOrDefault(u => uid == u.UserId),
-            UserProfile = db.UserProfiles.FirstOrDefault(up => uid == up.UserId)
+            // UserProfile = db.UserProfiles.FirstOrDefault(up => uid == up.UserId)
         };
+
         return View("Profile", theUser);
     }
 
