@@ -50,14 +50,15 @@ private string? key { // Invite code
     [SessionCheck]
     [HttpGet("/Dev/Dashboard")]
     public IActionResult DevDash() {
+        HttpContext.Session.SetString("side", "Developer");
         MyViews userInfo = new MyViews {
             AllDevSkills = (List<DevSkill>)db.Users
             .Where(u => u.UserId == (int)uid)
             .Select(u => u.mySkills.Select(ds => ds.mySkill.Name))
-            .FirstOrDefault(),
-            userProfile = (UserProfile)db.Users
-            .Where(u => u.UserId == (int)uid)
-            .Select(u => u.myProfile)
+            .FirstOrDefault()
+            // userProfile = (UserProfile)db.Users
+            // .Where(u => u.UserId == (int)uid)
+            // .Select(u => u.myProfile)
         };
         return View("DevDash", userInfo);
     }
@@ -66,6 +67,9 @@ private string? key { // Invite code
     [SessionCheck]
     [HttpPost("/Dev/DevSkills/Create")]
     public IActionResult CreateDevSkill(DevSkill ds) {
+        ds.UserId = (int)uid;
+        db.DevSkills.Add(ds);
+        db.SaveChanges();
         return RedirectToAction("DevDash");
     }
 

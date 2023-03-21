@@ -1,0 +1,69 @@
+@{
+    ViewData["Title"] = "Skills";
+}
+@model List<Skill>
+<h1>Welcome to the Skills section</h1>
+@{
+    if(Context.Session.GetString("side") == "Dev") {
+        <p>Below you will find 3 lists. Languages, Tools, and Frameworks.  On the left is what is already added to our system with links to allow you to add it to your own list of skills which you will find on the right as well as a form to add any you have which you do not see on the left</p>
+    }
+    else if(Context.Session.GetString("side") == "Org") {
+        <p>Below you will find 3 lists. Languages, Tools, and Frameworks.  In each table you will find a link enabling you to add it to a job posting</p>
+    }
+    else {
+        <p>Below you will find 3 lists. Languages, Tools, and Frameworks.  On the left is what is already added to our system.</p>
+    }
+}
+<h2>Languages</h2>
+<div class="row">
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Image</th>
+        </tr>
+        @foreach(Skill s in Model) {
+            <tr>
+                <td>@s.Name</td>
+                @if(@s.Img == "N/A") {
+                    <td>N/A</td>
+                } else {
+                    <td><img src="@s.Img" alt="@s.Name"></td>
+                }
+            </tr>
+        }
+    </table>
+    <div class="column">
+        <div class="wrapRow">
+
+        </div>
+        <form action="/Skill/CreateSkill" method='post'>
+            <section>
+                <label for="SkillName">Name of Skill</label>
+                <input type="text" name="Name" id="">
+            </section>
+            <section>
+                <label for="SkillImg">Link to Image of Skill (N/A if no link)</label>
+                <input type="text" name="Img" id="">
+            </section>
+            <section>
+                <label for="SkillType">Skill Type</label>
+                <input type="text" name="Type" value="Language">
+            </section>
+            <button>Add Language Skill</button>
+        </form>
+    </div>
+</div>
+<h2>Tools</h2>
+<div class="row">
+    <table>
+        <tr></tr>
+    </table>
+    <div class="column"></div>
+</div>
+<h2>Frameworks</h2>
+<div class="row">
+    <table>
+        <tr></tr>
+    </table>
+    <div class="column"></div>
+</div>

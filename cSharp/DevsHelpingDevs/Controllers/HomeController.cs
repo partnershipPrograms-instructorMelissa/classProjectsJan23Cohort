@@ -140,7 +140,7 @@ private string? key { // Invite code
                     HttpContext.Session.SetInt32("uid", userInDb.UserId);
                     HttpContext.Session.SetString("name", userInDb.FullName());
                     HttpContext.Session.SetInt32("level", userInDb.Level);
-                    return View("Dashboard");
+                    return RedirectToAction("Dashboard");
                 }
             }
         }
@@ -193,6 +193,21 @@ private string? key { // Invite code
         HttpContext.Session.Clear();
         return View("Index");
     }
+// ! logout
+    [HttpGet("/Jobs")]
+    public IActionResult Jobs () {
+        return View("Jobs");
+    }
+// ! logout
+    [HttpGet("/About")]
+    public IActionResult About() {
+        return View("About");
+    }
+// ! logout
+    [HttpGet("/Contact")]
+    public IActionResult Contact() {
+        return View("Contact");
+    }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
@@ -208,6 +223,16 @@ public class SessionCheckAttribute : ActionFilterAttribute
         if(uid == null)
         {
             context.Result = new RedirectToActionResult("Index", "User", null);
+        }
+    }
+}
+public class AdminCheckAttribute : ActionFilterAttribute {
+    public override void OnActionExecuting(ActionExecutingContext context) {
+        int? level = context.HttpContext.Session.GetInt32("level");
+        if(level < 24) {
+            Console.WriteLine("You are not authorized to view this page");
+            context.Result = new RedirectToActionResult("NotAuth", "Home", 24);
+            // !!!!! Can not have receiving page have view back on load
         }
     }
 }

@@ -47,14 +47,20 @@ private string? key { // Invite code
         }
     }
 // ! Add Skill Form
-    // [HttpGet("/Skill/AddSkill")]
-    // public IActionResult AddSkill () {
-    //     return View();
-    // }
+    [SessionCheck]
+    [HttpGet("/Skill/AddSkill")]
+    public IActionResult AddSkill () {
+        List<Skill> allSkills = db.Skills
+        .ToList();
+        return View();
+    }
 // ! Create Skill - Post
-    // [HttpPost("/Skill/CreateSkill")]
-    // public IActionResult CreateSkill () {
-    //     return View();
-    // }
+    [SessionCheck]
+    [HttpPost("/Skill/CreateSkill")]
+    public IActionResult CreateSkill (Skill s) {
+        db.Skills.Add(s);
+        db.SaveChanges();
+        return Redirect("/Skill/AllSkills");
+    }
 
 }
