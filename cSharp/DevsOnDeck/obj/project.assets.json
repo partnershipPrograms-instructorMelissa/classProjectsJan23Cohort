@@ -781,19 +781,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/irish/.nuget/packages/": {}
+    "C:\\Users\\honey\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/DevsOnDeck.csproj",
+      "projectUniqueName": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\DevsOnDeck.csproj",
       "projectName": "DevsOnDeck",
-      "projectPath": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/DevsOnDeck.csproj",
-      "packagesPath": "/Users/irish/.nuget/packages/",
-      "outputPath": "/Users/irish/coding/work/CodingDojo/instruction/wos/classProjectsJan23Cohort/cSharp/DevsOnDeck/obj/",
+      "projectPath": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\DevsOnDeck.csproj",
+      "packagesPath": "C:\\Users\\honey\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\honey\\Documents\\coding\\work\\codingDojo\\classProjectsJan23Cohort\\cSharp\\DevsOnDeck\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/irish/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\honey\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -847,7 +847,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.405/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
       }
     }
   }
